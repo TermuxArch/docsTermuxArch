@@ -1,0 +1,563 @@
+$ v rev
+$ ./setupTermuxArch.sh refresh
+
+TermuxArch: FREE SPACE WARNING!  Start thinking about cleaning out some stuff.  699560 1K-blocks of free user space is available on this device.  The recommended minimum to install Arch Linux in Termux PRoot for armv7 is 1.25G of free user space.
+
+ 🕛 > 🕛 setupTermuxArch gen.v1.6 id725419561 will refresh your TermuxArch files in /data/data/com.termux/files/home/arch.  Ensure background data is not restricted.  Run bash setupTermuxArch.sh help for additional information.  Check the wireless connection if you do not see one o'clock 🕐 below.  Checking prerequisites…
+
+ 🕛 > 🕧 Prerequisites: OK  Downloading TermuxArch…
+
+setupTermuxArch.sha 100%[===================>]     153  --.-KB/s    in 0s
+setupTermuxArch.tar 100%[===================>]  19.78K  35.7KB/s    in 0.6s
+
+ 🕛 > 🕐 TermuxArch download: OK
+
+ 🕛 > 🕜 TermuxArch gen.v1.6 id725419561 integrity: OK
+
+ 🕛 > 🕒 Activating termux-wake-lock: DONE
+
+
+:: Removing redundant packages...
+
+==> Running ./root/bin/keys…
+When gpg: Generating pacman keyring master key appears on the screen, the installation process can be accelerated.  The system desires a lot of entropy at this part of the install procedure.  To generate as much entropy as possible quickly, watch and listen to a file on your device.
+
+The program pacman-key will want as much entropy as possible when generating keys.  Entropy is also created through tapping, sliding, one, two and more fingers tapping with short and long taps.  When gpg: Generating pacman keyring master key appears on the screen, use any of these simple methods to accelerate the installation process if it is stalled.  Put even simpler, just do something on device.  Browsing files will create entropy on device.  Slowly swiveling the device in space and time will accelerate the installation process.  This method alone might not generate enough entropy (a measure of randomness in a closed system) for the process to complete quickly.  Use bash ~/arch/bin/we in a new Termux session to and watch entropy on device.
+
+==> Running pacman-key --init…
+
+==> Running pacman -S archlinux-keyring --noconfirm --color=always…
+resolving dependencies...
+looking for conflicting packages...
+
+Packages (1) archlinux-keyring-20180627-1
+
+Total Download Size:   0.58 MiB
+Total Installed Size:  0.83 MiB
+
+:: Proceed with installation? [Y/n]
+:: Retrieving packages...
+ archlinux-keyring-2...   597.4 KiB  6.93K/s 01:26 [######################] 100%
+(1/1) checking keys in keyring                     [######################] 100%
+(1/1) checking package integrity                   [######################] 100%
+(1/1) loading package files                        [######################] 100%
+(1/1) checking for file conflicts                  [######################] 100%
+(1/1) checking available disk space                [######################] 100%
+:: Processing package changes...
+(1/1) installing archlinux-keyring                 [######################] 100%
+==> Appending keys from archlinux.gpg...
+==> Locally signing trusted keys in keyring...
+  -> Locally signing key DDB867B92AA789C165EEFA799B729B06A680C281...
+  -> Locally signing key 684148BB25B49E986A4944C55184252D824B18E8...
+  -> Locally signing key 91FFE0700E80619CEB73235CA88E23E377514E00...
+  -> Locally signing key AB19265E5D7D20687D303246BA1DFB64FFF979E7...
+  -> Locally signing key 0E8B644079F599DFC1DDC3973348882F6AC6A4C2...
+==> Importing owner trust values...
+gpg: setting ownertrust to 4
+gpg: setting ownertrust to 4
+gpg: setting ownertrust to 4
+gpg: inserting ownertrust of 4
+gpg: setting ownertrust to 4
+==> Disabling revoked keys in keyring...
+  -> Disabling key 7FA647CD89891DEDC060287BB9113D1ED21E1A55...
+  -> Disabling key D4DE5ABDE2A7287644EAC7E36D1A9E70E19DAA50...
+  -> Disabling key 40440DC037C05620984379A6761FAD69BA06C6A9...
+  -> Disabling key B1F2C889CB2CCB2ADA36D963097D629E437520BD...
+  -> Disabling key BC1FBE4D2826A0B51E47ED62E2539214C6C11350...
+  -> Disabling key 63F395DE2D6398BBE458F281F2DBB4931985A992...
+
+When Appending keys from archlinux.gpg appears on the screen, the installation process can be accelerated.  The system desires a lot of entropy at this part of the install procedure.  To generate as much entropy as possible quickly, watch and listen to a file on your device.
+
+The program pacman-key will want as much entropy as possible when generating keys.  Entropy is also created through tapping, sliding, one, two and more fingers tapping with short and long taps.  When Appending keys from archlinux.gpg appears on the screen, use any of these simple methods to accelerate the installation process if it is stalled.  Put even simpler, just do something on device.  Browsing files will create entropy on device.  Slowly swiveling the device in space and time will accelerate the installation process.  This method alone might not generate enough entropy (a measure of randomness in a closed system) for the process to complete quickly.  Use bash ~/arch/bin/we in a new Termux session to watch entropy on device.
+
+==> Running pacman-key --populate…
+==> Appending keys from archlinux.gpg...
+==> Appending keys from archlinuxarm.gpg...
+==> Locally signing trusted keys in keyring...
+  -> Locally signing key DDB867B92AA789C165EEFA799B729B06A680C281...
+  -> Locally signing key 02922214DE8981D14DC2ACABBC704E86B823CD25...
+  -> Locally signing key 684148BB25B49E986A4944C55184252D824B18E8...
+  -> Locally signing key 91FFE0700E80619CEB73235CA88E23E377514E00...
+  -> Locally signing key 69DD6C8FD314223E14362848BF7EEF7A9C6B5765...
+  -> Locally signing key AB19265E5D7D20687D303246BA1DFB64FFF979E7...
+  -> Locally signing key 0E8B644079F599DFC1DDC3973348882F6AC6A4C2...
+  -> Locally signing key 9D22B7BB678DC056B1F7723CB55C5315DCD9EE1A...
+==> Importing owner trust values...
+==> Disabling revoked keys in keyring...
+  -> Disabling key 7FA647CD89891DEDC060287BB9113D1ED21E1A55...
+  -> Disabling key D4DE5ABDE2A7287644EAC7E36D1A9E70E19DAA50...
+  -> Disabling key 40440DC037C05620984379A6761FAD69BA06C6A9...
+  -> Disabling key B1F2C889CB2CCB2ADA36D963097D629E437520BD...
+  -> Disabling key BC1FBE4D2826A0B51E47ED62E2539214C6C11350...
+  -> Disabling key 63F395DE2D6398BBE458F281F2DBB4931985A992...
+  -> Disabling key 8F76BEEA0289F9E1D3E229C05F946DED983D4366...
+  -> Disabling key 4FCF887689C41B09506BE8D5F3E1D5C5D30DB0AD...
+  -> Disabling key 81D7F8241DB38BC759C80FCE3A726C6170E80477...
+  -> Disabling key 5E7585ADFF106BFFBBA319DC654B877A0864983E...
+  -> Disabling key 50F33E2E5B0C3D900424ABE89BDCF497A4BBCC7F...
+  -> Disabling key E7210A59715F6940CF9A4E36A001876699AD6E84...
+  -> Disabling key F5A361A3A13554B85E57DDDAAF7EF7873CFD4BB6...
+  -> Disabling key 40776A5221EF5AD468A4906D42A1DB15EC133BAD...
+  -> Disabling key 8CF934E339CAD8ABF342E822E711306E3C4F88BC...
+  -> Disabling key 5696C003B0854206450C8E5BE613C09CB4440678...
+  -> Disabling key 9515D8A8EAB88E49BB65EDBCE6B456CAF15447D5...
+  -> Disabling key 4A8B17E20B88ACA61860009B5CED81B7C2E5C0D2...
+  -> Disabling key 0B20CA1931F5DA3A70D0F8D2EA6836E1AB441196...
+  -> Disabling key 34C5D94FE7E7913E86DC427E7FB1A3800C84C0A5...
+  -> Disabling key 39F880E50E49A4D11341E8F939E4F17F295AFBF4...
+  -> Disabling key 66BD74A036D522F51DD70A3C7F2A16726521E06D...
+  -> Disabling key DBE7D3DD8C81D58D0A13D0E76BC26A17B9B7018A...
+  -> Disabling key 07DFD3A0BC213FA12EDC217559B3122E2FA915EC...
+  -> Disabling key 44D4A033AC140143927397D47EFD567D4C7EA887...
+  -> Disabling key 27FFC4769E19F096D41D9265A04F9397CDFD6BB0...
+  -> Disabling key 8840BD07FC24CB7CE394A07CCF7037A4F27FB7DA...
+==> Updating trust database...
+
+==> Running pacman -Ss keyring --color=always…
+core/archlinux-keyring 20180627-1 [installed]
+    Arch Linux PGP keyring
+core/archlinuxarm-keyring 20140119-1 [installed]
+    Arch Linux ARM PGP keyring
+extra/gnome-keyring 1:3.28.2-1 (gnome)
+    Stores passwords and encryption keys
+extra/libgnome-keyring 3.12.0-3
+    GNOME keyring client library
+extra/python2-gnomekeyring 2.32.0-17
+    Python bindings for libgnome-keyring
+community/debian-archive-keyring 2017.7-1
+    GnuPG archive keys of the Debian archive
+community/gnome-keyring-sharp 1.0.2-6
+    A fully managed implementation of libgnome-keyring
+community/jetring 0.25-1
+    gpg keyring maintenance using changesets
+community/python-keyring 13.2.1-1
+    Store and access your passwords safely.
+community/python-keyrings-alt 1:3.1-1
+    Alternate keyring implementations
+community/ubuntu-keyring 2018.02.28-1
+    GnuPG keys of the Ubuntu archive
+
+
+TermuxArch Keys: DONE 🏁
+
+:: Synchronizing package databases...
+ core is up to date
+ community is up to date 1542.0 KiB  15.2K/s 00:49 [##############--------]  67%
+ alarm is up to date
+ aur is up to date
+
+==> Generating locales...
+  en_US.UTF-8... done
+Generation complete.
+
+ 🕛 > 🕤 Arch Linux in Termux PRoot is installed.  Configuring and updating Arch Linux 📲  The following files have been updated to the newest version.
+
+arch/startarch
+arch/bin/we
+arch/root/bin/addauser
+arch/root/bin/addauserps
+arch/root/bin/addauserpsc
+arch/root/bin/ae
+arch/root/bin/cdtd
+arch/root/bin/cdth
+arch/root/bin/dfa
+arch/root/bin/exd
+arch/root/bin/fibs
+arch/root/bin/ga
+arch/root/bin/gcl
+arch/root/bin/gcm
+arch/root/bin/gp
+arch/root/bin/gpl
+arch/root/bin/keys
+arch/root/bin/pc
+arch/root/bin/pci
+arch/root/bin/t
+arch/root/bin/thstartarch
+arch/root/bin/tour
+arch/root/bin/trim
+arch/root/bin/v
+arch/root/bin/yt
+
+ 🕛 > 🕙 Releasing termux-wake-lock: DONE
+
+ 🕛 > 🕥 Use startarch to launch Arch Linux in Termux PRoot.  Alternatively, run ~/arch/startarch in a BASH shell to start Arch Linux in Termux PRoot for future sessions.  See startarch help for usage information.
+
+ 🕛 > 🕦 startarch copied to /data/data/com.termux/files/home/bin.
+
+ 🕛 = 🕛 Information about "Starting Arch Linux from Termux?" at https://github.com/sdrausty/TermuxArch/issues/25.  Use tour to run a very short tour to get to know the new Arch Linux in Termux PRoot environment you just set up a little bit better.  If there was more than one error during the update procedure and you would like to refresh the installation, use setupTermuxArch.sh refresh.  This will update and recreate the configuration provided.  The TermuxArch command keys helps install and generate Arch Linux keyring keys.
+
+Arch Linux in Termux PRoot is installed in /data/data/com.termux/files/home/arch.  This project is in active development and contributions are welcome; See https://sdrausty.github.io/TermuxArch/CONTRIBUTORS for information.  The documentation repository for TermuxArch https://sdrausty.github.io/TermuxArch/docs/ is a Termux Arch submodule that is located at https://github.com/sdrausty/docsTermuxArch.  Pull requests and contributions through the issues pages are open to improve the ux and this Termux PRoot installation script.
+
+Use ~/arch/startarch and startarch in a BASH shell to launch Arch Linux in Termux PRoot for future sessions.  If you are new to *nix, http://tldp.org has *nix documentation.  See https://wiki.archlinux.org/index.php/IRC_channel for available Arch Linux IRC channels.
+
+Welcome to Arch Linux in Termux!
+Install a package: pacman -S package
+More  information: pacman -[D|F|Q|R|S|T|U]h
+Search   packages: pacman -Ss query
+Upgrade  packages: pacman -Syu
+
+Chat: https://webchat.freenode.net/ #termux
+Help: info query and man query
+IRC:  wiki.archlinux.org/index.php/IRC_channel
+
+[03:59 arch ]$ e
+Thank you for experiencing Arch Linux in Termux!
+Install a package: pacman -S package
+More  information: pacman -[D|F|Q|R|S|T|U]h
+Search   packages: pacman -Ss query
+Upgrade  packages: pacman -Syu
+
+Chat: https://webchat.freenode.net/ #termux
+Help: info query and man query
+IRC:  wiki.archlinux.org/index.php/IRC_channel
+
+
+Arch Linux in Termux PRoot is installed in /data/data/com.termux/files/home/arch.  This project is in active development and contributions are welcome; See https://sdrausty.github.io/TermuxArch/CONTRIBUTORS for information.  The documentation repository for TermuxArch https://sdrausty.github.io/TermuxArch/docs/ is a Termux Arch submodule that is located at https://github.com/sdrausty/docsTermuxArch.  Pull requests and contributions through the issues pages are open to improve the ux and this Termux PRoot installation script.
+
+Use ~/arch/startarch and startarch in a BASH shell to launch Arch Linux in Termux PRoot for future sessions.  If you are new to *nix, http://tldp.org has *nix documentation.  See https://wiki.archlinux.org/index.php/IRC_channel for available Arch Linux IRC channels.
+
+Usage:  startarch Start Arch Linux as root.  This account should only be reserved for system administration.
+
+        startarch command command Run Arch Linux command from Termux as root user.
+
+        startarch login user Login as user.  Use addauser user first to create a user and the user's home directory.
+
+        startarch raw Construct the startarch proot statement.  For example startarch raw su - user will login to Arch Linux as user.  Use addauser user first to create a user and the user's home directory.
+
+        startarch su user command Login as user and execute command.  Use addauser user first to create a user and the user's home directory.
+
+
+setupTermuxArch.sh refresh gen.v1.6 id725419561: DONE 🏁
+
+$ ./setupTermuxArch.sh refresh
+
+TermuxArch: FREE SPACE WARNING!  Start thinking about cleaning out some stuff.  696404 1K-blocks of free user space is available on this device.  The recommended minimum to install Arch Linux in Termux PRoot for armv7 is 1.25G of free user space.
+
+ 🕛 > 🕛 setupTermuxArch gen.v1.6 id725419561 will refresh your TermuxArch files in /data/data/com.termux/files/home/arch.  Ensure background data is not restricted.  Run bash setupTermuxArch.sh help for additional information.  Check the wireless connection if you do not see one o'clock 🕐 below.  Checking prerequisites…
+
+ 🕛 > 🕧 Prerequisites: OK  Downloading TermuxArch…
+
+setupTermuxArch.sha 100%[===================>]     153  --.-KB/s    in 0s
+setupTermuxArch.tar 100%[===================>]  19.72K  46.0KB/s    in 0.4s
+
+ 🕛 > 🕐 TermuxArch download: OK
+
+setupTermuxArch.sh: UPDATED
+TermuxArch: RESTARTED
+
+TermuxArch: FREE SPACE WARNING!  Start thinking about cleaning out some stuff.  696368 1K-blocks of free user space is available on this device.  The recommended minimum to install Arch Linux in Termux PRoot for armv7 is 1.25G of free user space.
+
+ 🕛 > 🕛 setupTermuxArch gen.v1.6 id656381842 will refresh your TermuxArch files in /data/data/com.termux/files/home/arch.  Ensure background data is not restricted.  Run bash setupTermuxArch.sh help for additional information.  Check the wireless connection if you do not see one o'clock 🕐 below.  Checking prerequisites…
+
+ 🕛 > 🕧 Prerequisites: OK  Downloading TermuxArch…
+
+setupTermuxArch.sha 100%[===================>]     153  --.-KB/s    in 0s
+setupTermuxArch.tar 100%[===================>]  19.72K  45.0KB/s    in 0.4s
+
+ 🕛 > 🕐 TermuxArch download: OK
+
+ 🕛 > 🕜 TermuxArch gen.v1.6 id656381842 integrity: OK
+
+ 🕛 > 🕒 Activating termux-wake-lock: DONE
+
+
+:: Removing redundant packages...
+
+==> Running ./root/bin/keys…
+When gpg: Generating pacman keyring master key appears on the screen, the installation process can be accelerated.  The system desires a lot of entropy at this part of the install procedure.  To generate as much entropy as possible quickly, watch and listen to a file on your device.
+
+The program pacman-key will want as much entropy as possible when generating keys.  Entropy is also created through tapping, sliding, one, two and more fingers tapping with short and long taps.  When gpg: Generating pacman keyring master key appears on the screen, use any of these simple methods to accelerate the installation process if it is stalled.  Put even simpler, just do something on device.  Browsing files will create entropy on device.  Slowly swiveling the device in space and time will accelerate the installation process.  This method alone might not generate enough entropy (a measure of randomness in a closed system) for the process to complete quickly.  Use bash ~/arch/bin/we in a new Termux session to and watch entropy on device.
+
+==> Running pacman-key --init…
+
+==> Running pacman -S archlinux-keyring --noconfirm --color=always…
+resolving dependencies...
+looking for conflicting packages...
+
+Packages (1) archlinux-keyring-20180627-1
+
+Total Installed Size:  0.83 MiB
+Net Upgrade Size:      0.00 MiB
+
+:: Proceed with installation? [Y/n]
+(1/1) checking keys in keyring                     [######################] 100%
+(1/1) checking package integrity                   [######################] 100%
+(1/1) loading package files                        [######################] 100%
+(1/1) checking for file conflicts                  [######################] 100%
+(1/1) checking available disk space                [######################] 100%
+:: Processing package changes...
+(1/1) reinstalling archlinux-keyring               [######################] 100%
+==> Appending keys from archlinux.gpg...
+==> Locally signing trusted keys in keyring...
+  -> Locally signing key DDB867B92AA789C165EEFA799B729B06A680C281...
+  -> Locally signing key 684148BB25B49E986A4944C55184252D824B18E8...
+  -> Locally signing key 91FFE0700E80619CEB73235CA88E23E377514E00...
+  -> Locally signing key AB19265E5D7D20687D303246BA1DFB64FFF979E7...
+  -> Locally signing key 0E8B644079F599DFC1DDC3973348882F6AC6A4C2...
+==> Importing owner trust values...
+==> Disabling revoked keys in keyring...
+  -> Disabling key 7FA647CD89891DEDC060287BB9113D1ED21E1A55...
+  -> Disabling key D4DE5ABDE2A7287644EAC7E36D1A9E70E19DAA50...
+  -> Disabling key 40440DC037C05620984379A6761FAD69BA06C6A9...
+  -> Disabling key B1F2C889CB2CCB2ADA36D963097D629E437520BD...
+  -> Disabling key BC1FBE4D2826A0B51E47ED62E2539214C6C11350...
+  -> Disabling key 63F395DE2D6398BBE458F281F2DBB4931985A992...
+  -> Disabling key 8F76BEEA0289F9E1D3E229C05F946DED983D4366...
+  -> Disabling key 4FCF887689C41B09506BE8D5F3E1D5C5D30DB0AD...
+  -> Disabling key 81D7F8241DB38BC759C80FCE3A726C6170E80477...
+  -> Disabling key 5E7585ADFF106BFFBBA319DC654B877A0864983E...
+  -> Disabling key 50F33E2E5B0C3D900424ABE89BDCF497A4BBCC7F...
+  -> Disabling key E7210A59715F6940CF9A4E36A001876699AD6E84...
+  -> Disabling key F5A361A3A13554B85E57DDDAAF7EF7873CFD4BB6...
+  -> Disabling key 40776A5221EF5AD468A4906D42A1DB15EC133BAD...
+  -> Disabling key 8CF934E339CAD8ABF342E822E711306E3C4F88BC...
+  -> Disabling key 5696C003B0854206450C8E5BE613C09CB4440678...
+  -> Disabling key 9515D8A8EAB88E49BB65EDBCE6B456CAF15447D5...
+  -> Disabling key 4A8B17E20B88ACA61860009B5CED81B7C2E5C0D2...
+  -> Disabling key 0B20CA1931F5DA3A70D0F8D2EA6836E1AB441196...
+  -> Disabling key 34C5D94FE7E7913E86DC427E7FB1A3800C84C0A5...
+  -> Disabling key 39F880E50E49A4D11341E8F939E4F17F295AFBF4...
+  -> Disabling key 66BD74A036D522F51DD70A3C7F2A16726521E06D...
+  -> Disabling key DBE7D3DD8C81D58D0A13D0E76BC26A17B9B7018A...
+  -> Disabling key 07DFD3A0BC213FA12EDC217559B3122E2FA915EC...
+  -> Disabling key 44D4A033AC140143927397D47EFD567D4C7EA887...
+  -> Disabling key 27FFC4769E19F096D41D9265A04F9397CDFD6BB0...
+  -> Disabling key 8840BD07FC24CB7CE394A07CCF7037A4F27FB7DA...
+==> Updating trust database...
+gpg: next trustdb check due at 2018-12-13
+
+When Appending keys from archlinux.gpg appears on the screen, the installation process can be accelerated.  The system desires a lot of entropy at this part of the install procedure.  To generate as much entropy as possible quickly, watch and listen to a file on your device.
+
+The program pacman-key will want as much entropy as possible when generating keys.  Entropy is also created through tapping, sliding, one, two and more fingers tapping with short and long taps.  When Appending keys from archlinux.gpg appears on the screen, use any of these simple methods to accelerate the installation process if it is stalled.  Put even simpler, just do something on device.  Browsing files will create entropy on device.  Slowly swiveling the device in space and time will accelerate the installation process.  This method alone might not generate enough entropy (a measure of randomness in a closed system) for the process to complete quickly.  Use bash ~/arch/bin/we in a new Termux session to watch entropy on device.
+
+==> Running pacman-key --populate…
+==> Appending keys from archlinux.gpg...
+==> Appending keys from archlinuxarm.gpg...
+==> Locally signing trusted keys in keyring...
+  -> Locally signing key DDB867B92AA789C165EEFA799B729B06A680C281...
+  -> Locally signing key 02922214DE8981D14DC2ACABBC704E86B823CD25...
+  -> Locally signing key 684148BB25B49E986A4944C55184252D824B18E8...
+  -> Locally signing key 91FFE0700E80619CEB73235CA88E23E377514E00...
+  -> Locally signing key 69DD6C8FD314223E14362848BF7EEF7A9C6B5765...
+  -> Locally signing key AB19265E5D7D20687D303246BA1DFB64FFF979E7...
+  -> Locally signing key 0E8B644079F599DFC1DDC3973348882F6AC6A4C2...
+  -> Locally signing key 9D22B7BB678DC056B1F7723CB55C5315DCD9EE1A...
+==> Importing owner trust values...
+==> Disabling revoked keys in keyring...
+  -> Disabling key 7FA647CD89891DEDC060287BB9113D1ED21E1A55...
+  -> Disabling key D4DE5ABDE2A7287644EAC7E36D1A9E70E19DAA50...
+  -> Disabling key 40440DC037C05620984379A6761FAD69BA06C6A9...
+  -> Disabling key B1F2C889CB2CCB2ADA36D963097D629E437520BD...
+  -> Disabling key BC1FBE4D2826A0B51E47ED62E2539214C6C11350...
+  -> Disabling key 63F395DE2D6398BBE458F281F2DBB4931985A992...
+  -> Disabling key 8F76BEEA0289F9E1D3E229C05F946DED983D4366...
+  -> Disabling key 4FCF887689C41B09506BE8D5F3E1D5C5D30DB0AD...
+  -> Disabling key 81D7F8241DB38BC759C80FCE3A726C6170E80477...
+  -> Disabling key 5E7585ADFF106BFFBBA319DC654B877A0864983E...
+  -> Disabling key 50F33E2E5B0C3D900424ABE89BDCF497A4BBCC7F...
+  -> Disabling key E7210A59715F6940CF9A4E36A001876699AD6E84...
+  -> Disabling key F5A361A3A13554B85E57DDDAAF7EF7873CFD4BB6...
+  -> Disabling key 40776A5221EF5AD468A4906D42A1DB15EC133BAD...
+  -> Disabling key 8CF934E339CAD8ABF342E822E711306E3C4F88BC...
+  -> Disabling key 5696C003B0854206450C8E5BE613C09CB4440678...
+  -> Disabling key 9515D8A8EAB88E49BB65EDBCE6B456CAF15447D5...
+  -> Disabling key 4A8B17E20B88ACA61860009B5CED81B7C2E5C0D2...
+  -> Disabling key 0B20CA1931F5DA3A70D0F8D2EA6836E1AB441196...
+  -> Disabling key 34C5D94FE7E7913E86DC427E7FB1A3800C84C0A5...
+  -> Disabling key 39F880E50E49A4D11341E8F939E4F17F295AFBF4...
+  -> Disabling key 66BD74A036D522F51DD70A3C7F2A16726521E06D...
+  -> Disabling key DBE7D3DD8C81D58D0A13D0E76BC26A17B9B7018A...
+  -> Disabling key 07DFD3A0BC213FA12EDC217559B3122E2FA915EC...
+  -> Disabling key 44D4A033AC140143927397D47EFD567D4C7EA887...
+  -> Disabling key 27FFC4769E19F096D41D9265A04F9397CDFD6BB0...
+  -> Disabling key 8840BD07FC24CB7CE394A07CCF7037A4F27FB7DA...
+==> Updating trust database...
+
+==> Running pacman -Ss keyring --color=always…
+core/archlinux-keyring 20180627-1 [installed]
+    Arch Linux PGP keyring
+core/archlinuxarm-keyring 20140119-1 [installed]
+    Arch Linux ARM PGP keyring
+extra/gnome-keyring 1:3.28.2-1 (gnome)
+    Stores passwords and encryption keys
+extra/libgnome-keyring 3.12.0-3
+    GNOME keyring client library
+extra/python2-gnomekeyring 2.32.0-17
+    Python bindings for libgnome-keyring
+community/debian-archive-keyring 2017.7-1
+    GnuPG archive keys of the Debian archive
+community/gnome-keyring-sharp 1.0.2-6
+    A fully managed implementation of libgnome-keyring
+community/jetring 0.25-1
+    gpg keyring maintenance using changesets
+community/python-keyring 13.2.1-1
+    Store and access your passwords safely.
+community/python-keyrings-alt 1:3.1-1
+    Alternate keyring implementations
+community/ubuntu-keyring 2018.02.28-1
+    GnuPG keys of the Ubuntu archive
+
+
+TermuxArch Keys: DONE 🏁
+
+:: Synchronizing package databases...
+ core is up to date
+ community                  4.7 MiB  14.1K/s 05:41 [######################] 100%
+ alarm is up to date
+ aur is up to date
+
+==> Generating locales...
+  en_US.UTF-8... done
+Generation complete.
+
+ 🕛 > 🕤 Arch Linux in Termux PRoot is installed.  Configuring and updating Arch Linux 📲  The following files have been updated to the newest version.
+
+arch/startarch
+arch/bin/we
+arch/root/bin/addauser
+arch/root/bin/addauserps
+arch/root/bin/addauserpsc
+arch/root/bin/ae
+arch/root/bin/cdtd
+arch/root/bin/cdth
+arch/root/bin/dfa
+arch/root/bin/exd
+arch/root/bin/fibs
+arch/root/bin/ga
+arch/root/bin/gcl
+arch/root/bin/gcm
+arch/root/bin/gp
+arch/root/bin/gpl
+arch/root/bin/keys
+arch/root/bin/pc
+arch/root/bin/pci
+arch/root/bin/t
+arch/root/bin/thstartarch
+arch/root/bin/tour
+arch/root/bin/trim
+arch/root/bin/v
+arch/root/bin/yt
+
+ 🕛 > 🕙 Releasing termux-wake-lock: DONE
+
+ 🕛 > 🕥 Use startarch to launch Arch Linux in Termux PRoot.  Alternatively, run ~/arch/startarch in a BASH shell to start Arch Linux in Termux PRoot for future sessions.  See startarch help for usage information.
+
+ 🕛 > 🕦 startarch copied to /data/data/com.termux/files/home/bin.
+
+ 🕛 = 🕛 Information about "Starting Arch Linux from Termux?" at https://github.com/sdrausty/TermuxArch/issues/25.  Use tour to run a very short tour to get to know the new Arch Linux in Termux PRoot environment you just set up a little bit better.  If there was more than one error during the update procedure and you would like to refresh the installation, use setupTermuxArch.sh refresh.  This will update and recreate the configuration provided.  The TermuxArch command keys helps install and generate Arch Linux keyring keys.
+
+Arch Linux in Termux PRoot is installed in /data/data/com.termux/files/home/arch.  This project is in active development and contributions are welcome; See https://sdrausty.github.io/TermuxArch/CONTRIBUTORS for information.  The documentation repository for TermuxArch https://sdrausty.github.io/TermuxArch/docs/ is a Termux Arch submodule that is located at https://github.com/sdrausty/docsTermuxArch.  Pull requests and contributions through the issues pages are open to improve the ux and this Termux PRoot installation script.
+
+Use ~/arch/startarch and startarch in a BASH shell to launch Arch Linux in Termux PRoot for future sessions.  If you are new to *nix, http://tldp.org has *nix documentation.  See https://wiki.archlinux.org/index.php/IRC_channel for available Arch Linux IRC channels.
+
+
+Welcome to Arch Linux in Termux!
+Install a package: pacman -S package
+More  information: pacman -[D|F|Q|R|S|T|U]h
+Search   packages: pacman -Ss query
+Upgrade  packages: pacman -Syu
+
+Chat: https://webchat.freenode.net/ #termux
+Help: info query and man query
+IRC:  wiki.archlinux.org/index.php/IRC_channel
+
+[04:12 arch ]$ tour
+
+==> Running lr ~
+
+/root:
+bin
+
+/root/bin:
+addauser     ae    dfa   ga   gp    pc   thstartarch  v
+addauserps   cdtd  exd   gcl  gpl   pci  tour         yt
+addauserpsc  cdth  fibs  gcm  keys  t    trim
+
+==> Running cat ~/.bash_profile
+
+PATH=$HOME/bin:$PATH
+. $HOME/.bashrc
+PS1="[\A\[\033[0;32m\] \W \[\033[0m\]]\$ "
+export TZ=America/New_York
+
+==> Running cat ~/.bashrc
+
+if [ ! -e $HOME/.hushlogin ] && [ ! -e $HOME/.chushlogin ];then
+. /etc/motd
+fi
+if [ -e $HOME/.chushlogin ];then
+rm $HOME/.chushlogin
+fi
+alias c='cd .. && pwd'
+alias ..="cd ../.. && pwd"
+alias ...="cd ../../.. && pwd"
+alias ....="cd ../../../.. && pwd"
+alias .....="cd ../../../../.. && pwd"
+alias d='du -hs'
+alias e='logout'
+alias egrep='egrep --color=always'
+alias f='fgrep --color=always'
+alias g='ga; gcm; gp'
+alias gca='git commit -a'
+alias gcam='git commit -am'
+#alias gp='git push https://username:password@github.com/username/repository.git master'
+alias grep='grep --color=always'
+alias h='history >> $HOME/.historyfile'
+alias j='jobs'
+alias l='ls -alG'
+alias lr='ls -alR'
+alias ls='ls --color=always'
+alias p='pwd'
+alias pacman='pacman --color=always'
+alias pcs='pacman -S --color=always'
+alias pcss='pacman -Ss --color=always'
+alias q='logout'
+alias rf='rm -rf'
+
+==> Running cat ~/bin/pc
+
+#!/bin/bash -e
+# Copyright 2017-2018 by SDRausty. All rights reserved.  🌎 🌍 🌏 🌐 🗺
+# Hosting https://sdrausty.github.io/TermuxArch courtesy https://pages.github.com
+# https://sdrausty.github.io/TermuxArch/CONTRIBUTORS Thank you for your help.
+# https://sdrausty.github.io/TermuxArch/README has information about this project.
+################################################################################
+if [[ $1 = "a" ]];then
+pacman --noconfirm --color=always -Syu base base-devel ${@:2}
+elif [[ $1 = "ae" ]];then
+pacman --noconfirm --color=always -Syu base base-devel emacs ${@:2}
+elif [[ $1 = "a8" ]];then
+pacman --noconfirm --color=always -Syu base base-devel emacs jdk8-openjdk ${@:2}
+else
+pacman --noconfirm --color=always -Syu $@
+fi
+trim
+
+==> Short tour is complete; Run this script again at a later time, and it might be surprising at how this environment changes over time.  If you are new to *nix, see http://tldp.org for documentation.  IRC:  https://wiki.archlinux.org/index.php/IRC_channel
+
+[04:12 arch ]$ e
+Thank you for experiencing Arch Linux in Termux!
+
+Chat: https://webchat.freenode.net/ #termux
+Help: info query and man query
+IRC:  wiki.archlinux.org/index.php/IRC_channel
+
+
+Arch Linux in Termux PRoot is installed in /data/data/com.termux/files/home/arch.  This project is in active development and contributions are welcome; See https://sdrausty.github.io/TermuxArch/CONTRIBUTORS for information.  The documentation repository for TermuxArch https://sdrausty.github.io/TermuxArch/docs/ is a Termux Arch submodule that is located at https://github.com/sdrausty/docsTermuxArch.  Pull requests and contributions through the issues pages are open to improve the ux and this Termux PRoot installation script.
+
+Use ~/arch/startarch and startarch in a BASH shell to launch Arch Linux in Termux PRoot for future sessions.  If you are new to *nix, http://tldp.org has *nix documentation.  See https://wiki.archlinux.org/index.php/IRC_channel for available Arch Linux IRC channels.
+
+Usage:  startarch Start Arch Linux as root.  This account should only be reserved for system administration.
+
+        startarch command command Run Arch Linux command from Termux as root user.
+
+        startarch login user Login as user.  Use addauser user first to create a user and the user's home directory.
+
+        startarch raw Construct the startarch proot statement.  For example startarch raw su - user will login to Arch Linux as user.  Use addauser user first to create a user and the user's home directory.
+
+        startarch su user command Login as user and execute command.  Use addauser user first to create a user and the user's home directory.
+
+
+setupTermuxArch.sh refresh gen.v1.6 id656381842: DONE 🏁
+
+$

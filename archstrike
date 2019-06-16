@@ -1,0 +1,29 @@
+
+
+@sudeeprku to install https://archstrike.org do the following:
+1) Install, update and configure Arch Linux using [`setupTermuxArch.sh`](https://sdrausty.github.io/TermuxArch/setupTermuxArch.sh).
+2) Add the next lines to the end of the /etc/pacman.conf file.
+```
+[archstrike]
+Server = https://mirror.archstrike.org/$arch/$repo
+```
+3) Run `pacman -Syu`
+4) Run `pacman -S archstrike --needed`
+
+[archstrike]
+Server = https://mirror.archstrike.org/$arch/$repo
+
+[blackarch]
+Server = http://blackarch.org/blackarch/$repo/os/$arch
+#Server = http://mirror.math.princeton.edu/pub/blackarch/os/$arch/
+
+
+@sudeeprku to install https://archstrike.org do the following:
+1) Install, update and configure Arch Linux using [`setupTermuxArch.sh`](https://sdrausty.github.io/TermuxArch/setupTermuxArch.sh).
+2) Add the next lines to the end of the /etc/pacman.conf file.
+```
+[archstrike]
+Server = https://mirror.archstrike.org/$arch/$repo
+```
+3) Run `pacman -Syu`
+4) Run `pacman -S archstrike --needed`

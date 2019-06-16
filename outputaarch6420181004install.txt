@@ -1,0 +1,429 @@
+bash-4.4$ ./setupTermuxArch.sh
+
+ 🕛 > 🕛 ＴｅｒｍｕｘＡｒｃｈ gen.v1.6.4.id043240754268 shall attempt to install Linux in /data/data/com.termux/files/home/arch.  Linux in Termux PRoot shall be available upon successful completion.  To run this BASH script again, use `!!`.  Ensure background data is not restricted.  Check the wireless connection if you do not see one o'clock 🕐 below.  Checking prerequisites…
+
+Found download tool: wget; Continuing…
+
+Using wget to manage downloads.
+
+ 🕛 > 🕧 Prerequisites: OK  Downloading ＴｅｒｍｕｘＡｒｃｈ…
+
+setupTermuxArch.sha512   100%[================================>]     153  --.-KB/s    in 0s
+setupTermuxArch.tar.gz   100%[================================>]  37.32K  --.-KB/s    in 0.1s
+
+ 🕛 > 🕐 ＴｅｒｍｕｘＡｒｃｈ download: OK
+
+ 🕛 > 🕜 ＴｅｒｍｕｘＡｒｃｈ gen.v1.6.4.id043240754268 integrity: OK
+
+Setting locales to: Language >> en_US << Region
+
+ 🕛 > 🕝 Detected aarch64 Linux operating system.
+
+ 🕛 > 🕒 Activating wake-lock: DONE
+
+ 🕛 > 🕞 Contacting worldwide mirror https://os.archlinuxarm.org: DONE
+
+ 🕛 > 🕓 Downloading the checksum file and ArchLinuxARM-aarch64-latest.tar.gz from the geographically local mirror http://il.us.mirror.archlinuxarm.org/.  If contact with the local mirror is not successful, run setupTermuxArch.sh again.  Should the worldwide mirror not provide another geographically nearby server after a couple of attempts, use setupTermuxArch.sh manual after locating a local mirror from the Internet; See setupTermuxArch.sh help for additional options.  Download of ArchLinuxARM-aarch64-latest.tar.gz pending Internet connection:
+
+ArchLinuxARM-aarch64-lat 100%[================================>]      69  --.-KB/s    in 0s
+ArchLinuxARM-aarch64-lat 100%[================================>] 419.40M  52.9MB/s    in 9.5s
+
+ 🕛 > 🕠 Checking download integrity with Termux busybox md5sum.  This may take a little while:
+
+ 🕛 > 🕕 System image file download integrity: OK
+
+ 🕛 > 🕡 Unpacking ArchLinuxARM-aarch64-latest.tar.gz into /data/data/com.termux/files/home/arch.  The option to create Arch Linux system users is available through addauser.  Arch Linux user login from Termux with startarch is now implemented.  See Ability for Scripts to Launch Commands for Arch Linux in Termux PRoot on Device https://github.com/sdrausty/TermuxArch/issues/54 for more information about these brand new options.
+
+While waiting, you can use df, du -hs, htop, ps, top and watch in a new Termux session to watch the unpacking while the session completes.  Use info query and man query to learn more about your Linux system in the palm of your hand.  See The Linux Documentation Project http://tldp.org to learn more about Linux and CLI commands.  Unpacking ArchLinuxARM-aarch64-latest.tar.gz will take a long time; Be patient…
+
+
+ 🕛 > 🕘 Cleaning up installation files: DONE
+
+ 🕛 > 🕤 Arch Linux in Termux PRoot is installed.  Configuring and updating Arch Linux 📲
+
+To generate locales in a preferred language use Settings > Language & Keyboard > Language in Android; Then run setupTermuxArch.sh r for a quick system refresh; For full system refresh use setupTermuxArch.sh refresh.
+
+==> Generating locales...
+  en_US.UTF-8... done
+Generation complete.
+
+:: Removing redundant packages for Termux PRoot installation…
+checking dependencies...
+
+Packages (2) linux-aarch64-4.18.5-1  linux-firmware-20180825.fea76a0-1
+
+Total Removed Size:  411.93 MiB
+
+:: Do you want to remove these packages? [Y/n]
+:: Processing package changes...
+(1/2) removing linux-aarch64                               [################################] 100%
+(2/2) removing linux-firmware                              [################################] 100%
+:: Running post-transaction hooks...
+(1/1) Arming ConditionNeedsUpdate...
+
+==> Running TermuxArch keys archlinux-keyring archlinuxarm-keyring ca-certificates-utils gen.v1.6.4.id043240754268…
+
+When gpg: Generating pacman keyring master key appears on the screen, the installation process can be accelerated.  The system desires a lot of entropy at this part of the install procedure.  To generate as much entropy as possible quickly, watch and listen to a file on your device.
+
+The program pacman-key will want as much entropy as possible when generating keys.  Entropy is also created through tapping, sliding, one, two and more fingers tapping with short and long taps.  When gpg: Generating pacman keyring master key appears on the screen, use any of these simple methods to accelerate the installation process if it is stalled.  Put even simpler, just do something on device.  Browsing files will create entropy on device.  Slowly swiveling the device in space and time will accelerate the installation process.  This method alone might not generate enough entropy (a measure of randomness in a closed system) for the process to complete quickly.  Use bash ~/arch/bin/we in a new Termux session to and watch entropy on device.
+
+==> Running pacman-key --init…
+gpg: /etc/pacman.d/gnupg/trustdb.gpg: trustdb created
+gpg: no ultimately trusted keys found
+gpg: starting migration from earlier GnuPG versions
+gpg: porting secret keys from '/etc/pacman.d/gnupg/secring.gpg' to gpg-agent
+gpg: migration succeeded
+gpg: Generating pacman keyring master key...
+gpg: key 6FA6A92B4EE8B9DC marked as ultimately trusted
+gpg: directory '/etc/pacman.d/gnupg/openpgp-revocs.d' created
+gpg: revocation certificate stored as '/etc/pacman.d/gnupg/openpgp-revocs.d/A3C8EA421F284047C00BB18D6FA6A92B4EE8B9DC.rev'
+gpg: Done
+==> Updating trust database...
+gpg: marginals needed: 3  completes needed: 1  trust model: pgp
+gpg: depth: 0  valid:   1  signed:   0  trust: 0-, 0q, 0n, 0m, 0f, 1u
+==> Appending keys from archlinuxarm.gpg...
+==> Locally signing trusted keys in keyring...
+  -> Locally signing key 02922214DE8981D14DC2ACABBC704E86B823CD25...
+  -> Locally signing key 69DD6C8FD314223E14362848BF7EEF7A9C6B5765...
+  -> Locally signing key 9D22B7BB678DC056B1F7723CB55C5315DCD9EE1A...
+==> Importing owner trust values...
+gpg: setting ownertrust to 4
+gpg: inserting ownertrust of 4
+gpg: setting ownertrust to 4
+==> Updating trust database...
+gpg: marginals needed: 3  completes needed: 1  trust model: pgp
+gpg: depth: 0  valid:   1  signed:   3  trust: 0-, 0q, 0n, 0m, 0f, 1u
+gpg: depth: 1  valid:   3  signed:   1  trust: 0-, 0q, 0n, 3m, 0f, 0u
+gpg: depth: 2  valid:   1  signed:   0  trust: 1-, 0q, 0n, 0m, 0f, 0u
+
+==> Running pacman -S archlinux-keyring archlinuxarm-keyring ca-certificates-utils --noconfirm --color=always…
+warning: archlinuxarm-keyring-20140119-1 is up to date -- reinstalling
+warning: ca-certificates-utils-20180821-1 is up to date -- reinstalling
+resolving dependencies...
+looking for conflicting packages...
+
+Packages (3) archlinux-keyring-20180808-1  archlinuxarm-keyring-20140119-1
+             ca-certificates-utils-20180821-1
+
+Total Download Size:   0.61 MiB
+Total Installed Size:  0.96 MiB
+Net Upgrade Size:      0.84 MiB
+
+:: Proceed with installation? [Y/n]
+:: Retrieving packages...
+ archlinux-keyring-20180808-...   600.4 KiB  11.7M/s 00:00 [################################] 100%
+ archlinuxarm-keyring-201401...    12.2 KiB  0.00B/s 00:00 [################################] 100%
+ ca-certificates-utils-20180...     8.0 KiB  0.00B/s 00:00 [################################] 100%
+(3/3) checking keys in keyring                             [################################] 100%
+(3/3) checking package integrity                           [################################] 100%
+(3/3) loading package files                                [################################] 100%
+(3/3) checking for file conflicts                          [################################] 100%
+(3/3) checking available disk space                        [################################] 100%
+:: Processing package changes...
+(1/3) installing archlinux-keyring                         [################################] 100%
+==> Appending keys from archlinux.gpg...
+==> Locally signing trusted keys in keyring...
+  -> Locally signing key DDB867B92AA789C165EEFA799B729B06A680C281...
+  -> Locally signing key 684148BB25B49E986A4944C55184252D824B18E8...
+  -> Locally signing key 91FFE0700E80619CEB73235CA88E23E377514E00...
+  -> Locally signing key AB19265E5D7D20687D303246BA1DFB64FFF979E7...
+  -> Locally signing key 0E8B644079F599DFC1DDC3973348882F6AC6A4C2...
+==> Importing owner trust values...
+gpg: setting ownertrust to 4
+gpg: setting ownertrust to 4
+gpg: setting ownertrust to 4
+gpg: inserting ownertrust of 4
+gpg: setting ownertrust to 4
+==> Disabling revoked keys in keyring...
+  -> Disabling key 7FA647CD89891DEDC060287BB9113D1ED21E1A55...
+  -> Disabling key D4DE5ABDE2A7287644EAC7E36D1A9E70E19DAA50...
+  -> Disabling key 40440DC037C05620984379A6761FAD69BA06C6A9...
+  -> Disabling key B1F2C889CB2CCB2ADA36D963097D629E437520BD...
+  -> Disabling key BC1FBE4D2826A0B51E47ED62E2539214C6C11350...
+  -> Disabling key 63F395DE2D6398BBE458F281F2DBB4931985A992...
+  -> Disabling key 8F76BEEA0289F9E1D3E229C05F946DED983D4366...
+  -> Disabling key 4FCF887689C41B09506BE8D5F3E1D5C5D30DB0AD...
+  -> Disabling key FB871F0131FEA4FB5A9192B4C8880A6406361833...
+  -> Disabling key 81D7F8241DB38BC759C80FCE3A726C6170E80477...
+  -> Disabling key 5E7585ADFF106BFFBBA319DC654B877A0864983E...
+  -> Disabling key 50F33E2E5B0C3D900424ABE89BDCF497A4BBCC7F...
+  -> Disabling key E7210A59715F6940CF9A4E36A001876699AD6E84...
+  -> Disabling key F5A361A3A13554B85E57DDDAAF7EF7873CFD4BB6...
+  -> Disabling key 40776A5221EF5AD468A4906D42A1DB15EC133BAD...
+  -> Disabling key 8CF934E339CAD8ABF342E822E711306E3C4F88BC...
+  -> Disabling key 5696C003B0854206450C8E5BE613C09CB4440678...
+  -> Disabling key 9515D8A8EAB88E49BB65EDBCE6B456CAF15447D5...
+  -> Disabling key 4A8B17E20B88ACA61860009B5CED81B7C2E5C0D2...
+  -> Disabling key 0B20CA1931F5DA3A70D0F8D2EA6836E1AB441196...
+  -> Disabling key 34C5D94FE7E7913E86DC427E7FB1A3800C84C0A5...
+  -> Disabling key 39F880E50E49A4D11341E8F939E4F17F295AFBF4...
+  -> Disabling key 66BD74A036D522F51DD70A3C7F2A16726521E06D...
+  -> Disabling key DBE7D3DD8C81D58D0A13D0E76BC26A17B9B7018A...
+  -> Disabling key 07DFD3A0BC213FA12EDC217559B3122E2FA915EC...
+  -> Disabling key 44D4A033AC140143927397D47EFD567D4C7EA887...
+  -> Disabling key 27FFC4769E19F096D41D9265A04F9397CDFD6BB0...
+  -> Disabling key 8840BD07FC24CB7CE394A07CCF7037A4F27FB7DA...
+==> Updating trust database...
+gpg: marginals needed: 3  completes needed: 1  trust model: pgp
+gpg: bad data signature from key 20E8A9C77716EB4F: Wrong key usage (0x19, 0x2)
+gpg: depth: 0  valid:   1  signed:   8  trust: 0-, 0q, 0n, 0m, 0f, 1u
+gpg: bad data signature from key 20E8A9C77716EB4F: Wrong key usage (0x19, 0x2)
+gpg: depth: 1  valid:   8  signed:  71  trust: 0-, 0q, 0n, 8m, 0f, 0u
+gpg: depth: 2  valid:  71  signed:   8  trust: 71-, 0q, 0n, 0m, 0f, 0u
+gpg: next trustdb check due at 2018-12-13
+(2/3) reinstalling archlinuxarm-keyring                    [################################] 100%
+==> Appending keys from archlinuxarm.gpg...
+==> Locally signing trusted keys in keyring...
+  -> Locally signing key 02922214DE8981D14DC2ACABBC704E86B823CD25...
+  -> Locally signing key 69DD6C8FD314223E14362848BF7EEF7A9C6B5765...
+  -> Locally signing key 9D22B7BB678DC056B1F7723CB55C5315DCD9EE1A...
+==> Importing owner trust values...
+==> Updating trust database...
+gpg: next trustdb check due at 2018-12-13
+(3/3) reinstalling ca-certificates-utils                   [################################] 100%
+:: Running post-transaction hooks...
+(1/2) Arming ConditionNeedsUpdate...
+(2/2) Rebuilding certificate stores...
+
+When Appending keys from archlinux.gpg appears on the screen, the installation process can be accelerated.  The system desires a lot of entropy at this part of the install procedure.  To generate as much entropy as possible quickly, watch and listen to a file on your device.
+
+The program pacman-key will want as much entropy as possible when generating keys.  Entropy is also created through tapping, sliding, one, two and more fingers tapping with short and long taps.  When Appending keys from archlinux.gpg appears on the screen, use any of these simple methods to accelerate the installation process if it is stalled.  Put even simpler, just do something on device.  Browsing files will create entropy on device.  Slowly swiveling the device in space and time will accelerate the installation process.  This method alone might not generate enough entropy (a measure of randomness in a closed system) for the process to complete quickly.  Use bash ~/arch/bin/we in a new Termux session to watch entropy on device.
+
+==> Running pacman-key --populate…
+==> Appending keys from archlinux.gpg...
+==> Appending keys from archlinuxarm.gpg...
+==> Locally signing trusted keys in keyring...
+  -> Locally signing key DDB867B92AA789C165EEFA799B729B06A680C281...
+  -> Locally signing key 02922214DE8981D14DC2ACABBC704E86B823CD25...
+  -> Locally signing key 684148BB25B49E986A4944C55184252D824B18E8...
+  -> Locally signing key 91FFE0700E80619CEB73235CA88E23E377514E00...
+  -> Locally signing key 69DD6C8FD314223E14362848BF7EEF7A9C6B5765...
+  -> Locally signing key AB19265E5D7D20687D303246BA1DFB64FFF979E7...
+  -> Locally signing key 0E8B644079F599DFC1DDC3973348882F6AC6A4C2...
+  -> Locally signing key 9D22B7BB678DC056B1F7723CB55C5315DCD9EE1A...
+==> Importing owner trust values...
+==> Disabling revoked keys in keyring...
+  -> Disabling key 7FA647CD89891DEDC060287BB9113D1ED21E1A55...
+  -> Disabling key D4DE5ABDE2A7287644EAC7E36D1A9E70E19DAA50...
+  -> Disabling key 40440DC037C05620984379A6761FAD69BA06C6A9...
+  -> Disabling key B1F2C889CB2CCB2ADA36D963097D629E437520BD...
+  -> Disabling key BC1FBE4D2826A0B51E47ED62E2539214C6C11350...
+  -> Disabling key 63F395DE2D6398BBE458F281F2DBB4931985A992...
+  -> Disabling key 8F76BEEA0289F9E1D3E229C05F946DED983D4366...
+  -> Disabling key 4FCF887689C41B09506BE8D5F3E1D5C5D30DB0AD...
+  -> Disabling key FB871F0131FEA4FB5A9192B4C8880A6406361833...
+  -> Disabling key 81D7F8241DB38BC759C80FCE3A726C6170E80477...
+  -> Disabling key 5E7585ADFF106BFFBBA319DC654B877A0864983E...
+  -> Disabling key 50F33E2E5B0C3D900424ABE89BDCF497A4BBCC7F...
+  -> Disabling key E7210A59715F6940CF9A4E36A001876699AD6E84...
+  -> Disabling key F5A361A3A13554B85E57DDDAAF7EF7873CFD4BB6...
+  -> Disabling key 40776A5221EF5AD468A4906D42A1DB15EC133BAD...
+  -> Disabling key 8CF934E339CAD8ABF342E822E711306E3C4F88BC...
+  -> Disabling key 5696C003B0854206450C8E5BE613C09CB4440678...
+  -> Disabling key 9515D8A8EAB88E49BB65EDBCE6B456CAF15447D5...
+  -> Disabling key 4A8B17E20B88ACA61860009B5CED81B7C2E5C0D2...
+  -> Disabling key 0B20CA1931F5DA3A70D0F8D2EA6836E1AB441196...
+  -> Disabling key 34C5D94FE7E7913E86DC427E7FB1A3800C84C0A5...
+  -> Disabling key 39F880E50E49A4D11341E8F939E4F17F295AFBF4...
+  -> Disabling key 66BD74A036D522F51DD70A3C7F2A16726521E06D...
+  -> Disabling key DBE7D3DD8C81D58D0A13D0E76BC26A17B9B7018A...
+  -> Disabling key 07DFD3A0BC213FA12EDC217559B3122E2FA915EC...
+  -> Disabling key 44D4A033AC140143927397D47EFD567D4C7EA887...
+  -> Disabling key 27FFC4769E19F096D41D9265A04F9397CDFD6BB0...
+  -> Disabling key 8840BD07FC24CB7CE394A07CCF7037A4F27FB7DA...
+==> Updating trust database...
+gpg: next trustdb check due at 2018-12-13
+
+==> Running pacman -Ss keyring --color=always…
+core/archlinux-keyring 20180808-1 [installed]
+    Arch Linux PGP keyring
+core/archlinuxarm-keyring 20140119-1 [installed]
+    Arch Linux ARM PGP keyring
+extra/gnome-keyring 1:3.28.2-1 (gnome)
+    Stores passwords and encryption keys
+extra/libgnome-keyring 3.12.0-3
+    GNOME keyring client library
+extra/python2-gnomekeyring 2.32.0-17
+    Python bindings for libgnome-keyring
+community/debian-archive-keyring 2017.7-1
+    GnuPG archive keys of the Debian archive
+community/gnome-keyring-sharp 1.0.2-6
+    A fully managed implementation of libgnome-keyring
+community/jetring 0.25-1
+    gpg keyring maintenance using changesets
+community/python-keyring 13.2.1-3
+    Store and access your passwords safely.
+community/python-keyrings-alt 1:3.1-3
+    Alternate keyring implementations
+community/python2-keyring 13.2.1-3
+    Store and access your passwords safely.
+community/python2-keyrings-alt 1:3.1-3
+    Alternate keyring implementations
+community/ubuntu-keyring 2018.02.28-1
+    GnuPG keys of the Ubuntu archive
+
+TermuxArch keys archlinux-keyring archlinuxarm-keyring ca-certificates-utils gen.v1.6.4.id043240754268: DONE 🏁
+
+
+==> Running TermuxArch pci  gen.v1.6.4.id043240754268 …
+
+:: Synchronizing package databases...
+ core                             191.7 KiB  3.12M/s 00:00 [################################] 100%
+ extra                              2.2 MiB  27.4M/s 00:00 [################################] 100%
+ community                          4.3 MiB  85.5M/s 00:00 [################################] 100%
+ alarm                             46.2 KiB  0.00B/s 00:00 [################################] 100%
+ aur is up to date
+:: Starting full system upgrade...
+resolving dependencies...
+looking for conflicting packages...
+
+Packages (32) audit-2.8.4-2  bzip2-1.0.6-8  ca-certificates-mozilla-3.39-1  coreutils-8.30-1
+              curl-7.61.1-3  dbus-1.12.10-2  dhcpcd-7.0.8-1  file-5.34-1  gdbm-1.18-1
+              glib2-2.58.1-1  gnupg-2.2.10-1  gnutls-3.5.19-2  iptables-1:1.6.2-3
+              jfsutils-1.1.15-6  json-c-0.13.1-2  libarchive-3.3.3-1  libelf-0.174-1
+              libidn-1.35-1  libnghttp2-1.33.0-1  libsystemd-239.2-1  libtirpc-1.1.4-1
+              lz4-1:1.8.3-1  mkinitcpio-busybox-1.29.3-1  nano-3.1-1  openssl-1.1.1-1
+              p11-kit-0.23.14-1  pacman-mirrorlist-20180903-1  pcre2-10.32-1  sqlite-3.25.2-1
+              systemd-239.2-1  systemd-sysvcompat-239.2-1  zstd-1.3.5-1
+
+Total Download Size:    24.41 MiB
+Total Installed Size:  117.54 MiB
+Net Upgrade Size:        6.05 MiB
+
+:: Proceed with installation? [Y/n]
+:: Retrieving packages...
+ bzip2-1.0.6-8-aarch64             54.5 KiB  0.00B/s 00:00 [################################] 100%
+ gdbm-1.18-1-aarch64              160.9 KiB  0.00B/s 00:00 [################################] 100%
+ openssl-1.1.1-1-aarch64            3.3 MiB  27.3M/s 00:00 [################################] 100%
+ coreutils-8.30-1-aarch64           2.2 MiB  37.2M/s 00:00 [################################] 100%
+ lz4-1:1.8.3-1-aarch64             96.9 KiB  0.00B/s 00:00 [################################] 100%
+ libsystemd-239.2-1-aarch64       363.9 KiB  0.00B/s 00:00 [################################] 100%
+ p11-kit-0.23.14-1-aarch64        433.9 KiB  21.2M/s 00:00 [################################] 100%
+ ca-certificates-mozilla-3.3...   327.6 KiB  0.00B/s 00:00 [################################] 100%
+ libnghttp2-1.33.0-1-aarch64       85.7 KiB  0.00B/s 00:00 [################################] 100%
+ curl-7.61.1-3-aarch64            931.2 KiB  45.5M/s 00:00 [################################] 100%
+ dbus-1.12.10-2-aarch64           287.5 KiB  0.00B/s 00:00 [################################] 100%
+ iptables-1:1.6.2-3-aarch64       323.6 KiB  0.00B/s 00:00 [################################] 100%
+ libelf-0.174-1-aarch64           348.4 KiB  34.0M/s 00:00 [################################] 100%
+ pcre2-10.32-1-aarch64            919.0 KiB  29.9M/s 00:00 [################################] 100%
+ audit-2.8.4-2-aarch64            331.8 KiB  0.00B/s 00:00 [################################] 100%
+ json-c-0.13.1-2-aarch64           46.0 KiB  0.00B/s 00:00 [################################] 100%
+ libtirpc-1.1.4-1-aarch64         177.3 KiB  0.00B/s 00:00 [################################] 100%
+ systemd-239.2-1-aarch64            4.0 MiB  33.5M/s 00:00 [################################] 100%
+ dhcpcd-7.0.8-1-aarch64           161.7 KiB  15.8M/s 00:00 [################################] 100%
+ file-5.34-1-aarch64              276.2 KiB  13.5M/s 00:00 [################################] 100%
+ glib2-2.58.1-1-aarch64             2.4 MiB   118M/s 00:00 [################################] 100%
+ gnutls-3.5.19-2-aarch64            2.2 MiB  55.7M/s 00:00 [################################] 100%
+ sqlite-3.25.2-1-aarch64         1320.6 KiB  64.5M/s 00:00 [################################] 100%
+ gnupg-2.2.10-1-aarch64             2.0 MiB  51.0M/s 00:00 [################################] 100%
+ jfsutils-1.1.15-6-aarch64        175.5 KiB  0.00B/s 00:00 [################################] 100%
+ zstd-1.3.5-1-aarch64             324.2 KiB  0.00B/s 00:00 [################################] 100%
+ libarchive-3.3.3-1-aarch64       436.3 KiB  0.00B/s 00:00 [################################] 100%
+ libidn-1.35-1-aarch64            205.6 KiB  0.00B/s 00:00 [################################] 100%
+ mkinitcpio-busybox-1.29.3-1...   219.0 KiB  0.00B/s 00:00 [################################] 100%
+ nano-3.1-1-aarch64               438.3 KiB  42.8M/s 00:00 [################################] 100%
+ pacman-mirrorlist-20180903-...     2.6 KiB  0.00B/s 00:00 [################################] 100%
+ systemd-sysvcompat-239.2-1-...     7.8 KiB  0.00B/s 00:00 [################################] 100%
+(32/32) checking keys in keyring                           [################################] 100%
+(32/32) checking package integrity                         [################################] 100%
+(32/32) loading package files                              [################################] 100%
+(32/32) checking for file conflicts                        [################################] 100%
+(32/32) checking available disk space                      [################################] 100%
+warning: could not get file information for usr/lib/gnupg/scdaemon
+:: Processing package changes...
+( 1/32) upgrading bzip2                                    [################################] 100%
+( 2/32) upgrading gdbm                                     [################################] 100%
+( 3/32) upgrading openssl                                  [################################] 100%
+( 4/32) upgrading coreutils                                [################################] 100%
+( 5/32) upgrading lz4                                      [################################] 100%
+( 6/32) upgrading libsystemd                               [################################] 100%
+( 7/32) upgrading p11-kit                                  [################################] 100%
+( 8/32) upgrading ca-certificates-mozilla                  [################################] 100%
+( 9/32) upgrading libnghttp2                               [################################] 100%
+(10/32) upgrading curl                                     [################################] 100%
+(11/32) upgrading dbus                                     [################################] 100%
+(12/32) upgrading iptables                                 [################################] 100%
+(13/32) upgrading libelf                                   [################################] 100%
+(14/32) upgrading pcre2                                    [################################] 100%
+(15/32) installing audit                                   [################################] 100%
+(16/32) upgrading json-c                                   [################################] 100%
+(17/32) upgrading libtirpc                                 [################################] 100%
+(18/32) upgrading systemd                                  [################################] 100%
+New optional dependencies for systemd
+    curl: machinectl pull-tar and pull-raw [installed]
+(19/32) upgrading dhcpcd                                   [################################] 100%
+(20/32) upgrading file                                     [################################] 100%
+(21/32) upgrading glib2                                    [################################] 100%
+(22/32) upgrading gnutls                                   [################################] 100%
+(23/32) upgrading sqlite                                   [################################] 100%
+(24/32) upgrading gnupg                                    [################################] 100%
+(25/32) upgrading jfsutils                                 [################################] 100%
+(26/32) installing zstd                                    [################################] 100%
+(27/32) upgrading libarchive                               [################################] 100%
+(28/32) upgrading libidn                                   [################################] 100%
+(29/32) upgrading mkinitcpio-busybox                       [################################] 100%
+(30/32) upgrading nano                                     [################################] 100%
+(31/32) upgrading pacman-mirrorlist                        [################################] 100%
+warning: /etc/pacman.d/mirrorlist installed as /etc/pacman.d/mirrorlist.pacnew
+(32/32) upgrading systemd-sysvcompat                       [################################] 100%
+:: Running post-transaction hooks...
+( 1/10) Updating journal message catalog...
+( 2/10) Reloading system manager configuration...
+  Skipped: Current root is not booted.
+( 3/10) Updating udev hardware database...
+( 4/10) Applying kernel sysctl settings...
+  Skipped: Current root is not booted.
+( 5/10) Creating system user accounts...
+( 6/10) Creating temporary files...
+[/usr/lib/tmpfiles.d/journal-nocow.conf:26] Failed to resolve specifier: uninitialized /etc detected, skipping
+All rules containing unresolvable specifiers will be skipped.
+( 7/10) Reloading device manager configuration...
+  Skipped: Device manager is not running.
+( 8/10) Arming ConditionNeedsUpdate...
+( 9/10) Updating the info directory file...
+(10/10) Rebuilding certificate stores...
+
+TermuxArch pci  gen.v1.6.4.id043240754268: DONE 🏁
+
+
+🕛 > 🕤 Arch Linux in Termux is installed and configured 📲   finishsetup.sh  gen.v1.6.4.id043240754268: DONE 🏁
+
+
+ 🕛 > 🕙 Releasing wake-lock: DONE
+
+ 🕛 > 🕥 Use startarch to launch Arch Linux in Termux PRoot.  Alternatively, run ~/arch/startarch in a BASH shell to start Arch Linux in Termux PRoot for future sessions.  See startarch help for usage information.
+
+ 🕛 > 🕦 startarch copied to /data/data/com.termux/files/home/bin.
+
+ 🕛 = 🕛 Information about "Starting Arch Linux from Termux?" at https://github.com/sdrausty/TermuxArch/issues/25.  Use tour to run a very short tour to get to know the new Arch Linux in Termux PRoot environment you just set up a little bit better.  If there was more than one error during the update procedure and you would like to refresh the installation, use setupTermuxArch.sh refresh.  This will update and recreate the configuration provided.  The TermuxArch command keys helps install and generate Arch Linux keyring keys.
+
+Arch Linux in Termux PRoot is installed in /data/data/com.termux/files/home/arch.  This project is in active development.  Contributions to this project are welcome; See https://sdrausty.github.io/TermuxArch/CONTRIBUTORS for information.  The documentation repository for TermuxArch https://sdrausty.github.io/TermuxArch/docs/ is a Termux Arch submodule that is located at https://github.com/sdrausty/docsTermuxArch.  Pull requests and contributions through the issues pages are open to improve the ux (user experience) and this Termux PRoot installation script.
+
+Use ~/arch/startarch and startarch in a BASH shell to launch Arch Linux in Termux PRoot for future sessions.  If you are new to *nix, http://tldp.org has *nix documentation.  See https://wiki.archlinux.org/index.php/IRC_channel for available Arch Linux IRC channels.  Consider starring ⭐️ Ｔｅ ｒｍｕｘＡｒｃｈ and ✨ the submodules at Github 🌠
+
+startarch help
+
+startarch: Start Arch Linux as root.  This account is reserved for system administration.
+
+startarch c[md] cmd: Run Arch Linux command from Termux as root user.
+
+startarch u[ser]|l[ogin] user: Login as user.  Use startarch addauser user first to create this user and user's home directory.
+
+startarch r[aw]: Construct the startarch proot statement from exec.../bin/.  For example startarch r su will exec su in Arch Linux.
+
+startarch s[u] user cmd: Login as user and execute command.  Use startarch addauser user first to create this user and user's home directory.
+
+startarch  gen.v1.6.4.id043240754268: DONE 🏁
+
+
+Welcome to Arch Linux in Termux!
+Install a package: pacman -S package
+More  information: pacman -[D|F|Q|R|S|T|U]h
+Search   packages: pacman -Ss query
+Upgrade  packages: pacman -Syu
+
+Chat: wiki.termux.com/wiki/Community
+Help: info query and man query
+IRC:  wiki.archlinux.org/index.php/IRC_channel
+
+[root12:08arch]$

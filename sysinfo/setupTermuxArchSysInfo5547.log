@@ -1,0 +1,190 @@
+Begin TermuxArch v1.6.4.id2096 system information.
+
+dpkg --print-architecture result:
+
+aarch64
+
+uname -a results:
+
+Linux localhost 4.4.103+ #1 SMP PREEMPT Tue Aug 14 12:55:49 CST 2018 aarch64 Android
+
+BASH_VERSINFO[0] = 4
+BASH_VERSINFO[1] = 4
+BASH_VERSINFO[2] = 23
+BASH_VERSINFO[3] = 1
+BASH_VERSINFO[4] = release
+BASH_VERSINFO[5] = aarch64-unknown-linux-android
+
+cat /proc/cpuinfo results:
+
+processor	: 0
+BogoMIPS	: 3.84
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 1
+BogoMIPS	: 3.84
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 2
+BogoMIPS	: 3.84
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 3
+BogoMIPS	: 3.84
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd03
+CPU revision	: 4
+
+processor	: 4
+BogoMIPS	: 3.84
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd09
+CPU revision	: 2
+
+processor	: 5
+BogoMIPS	: 3.84
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd09
+CPU revision	: 2
+
+processor	: 6
+BogoMIPS	: 3.84
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd09
+CPU revision	: 2
+
+processor	: 7
+BogoMIPS	: 3.84
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x0
+CPU part	: 0xd09
+CPU revision	: 2
+
+
+Download directory information results:
+
+/sdcard/Download exists
+/storage/emulated/0/Download exists
+~/downloads not found
+/data/data/com.termux/files/home/storage/downloads not found
+
+Device information results:
+
+/dev/ashmem exists
+/dev/ashmem is readable
+/dev/shm does not exist
+/dev/shm is not readable
+/proc/stat exits
+/proc/stat is not readable
+
+getprop results:
+
+[getprop gsm.sim.operator.iso-country]: [ca,pl]
+[getprop net.bt.name]: [Android]
+[getprop net.dns1]: []
+[getprop net.dns2]: []
+[getprop net.dns3]: []
+[getprop net.dns4]: []
+[getprop persist.sys.locale]: [en-CA]
+[getprop ro.build.target_country]: []
+[getprop ro.build.version.release]: [8.1.0]
+[getprop ro.build.version.preview_sdk]: [0]
+[getprop ro.build.version.sdk]: [27]
+[getprop ro.com.google.clientidbase]: [android-huawei]
+[getprop ro.com.google.clientidbase.am]: [android-huawei]
+[getprop ro.com.google.clientidbase.ms]: [android-huawei-rev1]
+[getprop ro.product.device]: [HWCLT]
+[getprop ro.product.cpu.abi]: [arm64-v8a]
+[getprop ro.product.first_api_level]: [27]
+[getprop ro.product.locale]: [en-GB]
+[getprop ro.product.manufacturer]: [HUAWEI]
+[getprop ro.product.model]: [CLT-L29]
+
+Disk report 80412792 on /data Fri Oct  5 12:59:07 EDT 2018
+
+df /data/data/com.termux/files/home/arch results:
+
+Filesystem                             1K-blocks     Used Available Use% Mounted on
+/dev/block/bootdevice/by-name/userdata 116856832 35053456  80412784  31% /data
+
+df results:
+
+Filesystem                             1K-blocks     Used Available Use% Mounted on
+rootfs                                   2207348    12360   2194988   1% /
+tmpfs                                    2900668      700   2899968   1% /dev
+none                                     2900668        0   2900668   0% /sys/fs/cgroup
+/dev/block/dm-0                          4576648  3386012   1174252  75% /system
+overlay                                    27592     6236     20712  24% /system/lib
+/dev/block/dm-1                           765280   720004     29476  97% /vendor
+/dev/block/dm-2                           122796   115408      4812  96% /odm
+overlay                                    27592     6236     20712  24% /odm/lib64/hwcam
+/dev/block/dm-3                            27552      516     26396   2% /version
+/dev/block/dm-4                           186268   164092     18308  90% /product
+overlay                                    27592     6236     20712  24% /product/etc/xml
+/dev/block/dm-5                           186268    55744    126656  31% /cust
+tmpfs                                    2900668        0   2900668   0% /mnt
+/dev/block/dm-6                            27592     6236     20712  24% /patch_hw
+/dev/block/bootdevice/by-name/userdata 116856832 35053456  80412784  31% /data
+/dev/block/bootdevice/by-name/cache       124912       64    122228   1% /cache
+/data/media                            116836352 36444048  80392304  32% /storage/emulated
+
+du -hs /data/data/com.termux/files/home/arch results:
+
+1.8G	/data/data/com.termux/files/home/arch
+
+ls -al /data/data/com.termux/files/home/arch results:
+
+total 430000
+drwx------   16 u0_a214  u0_a214       3488 Oct  5 12:56 .
+drwx------    5 u0_a214  u0_a214       3488 Oct  5 12:59 ..
+-rw-------    1 u0_a214  u0_a214  439768154 Sep  1 01:06 ArchLinuxARM-aarch64-latest.tar.gz
+-rw-------    1 u0_a214  u0_a214         69 Sep  1 01:06 ArchLinuxARM-aarch64-latest.tar.gz.md5
+lrwxrwxrwx    1 u0_a214  u0_a214         18 Aug 23 14:03 bin -> usr/bin
+drwxr-xr-x    3 u0_a214  u0_a214       3488 Oct  2 00:41 boot
+drwxr-xr-x    2 u0_a214  u0_a214       3488 Sep  1 01:03 dev
+drwxr-xr-x   40 u0_a214  u0_a214       4096 Oct  3 01:17 etc
+drwxr-xr-x    3 u0_a214  u0_a214       3488 Sep  1 01:04 home
+lrwxrwxrwx    1 u0_a214  u0_a214         18 Aug 23 14:03 lib -> usr/lib
+drwxr-xr-x    2 u0_a214  u0_a214       3488 Aug 23 14:03 mnt
+drwxr-xr-x    2 u0_a214  u0_a214       3488 Aug 23 14:03 opt
+dr-xr-xr-x    2 u0_a214  u0_a214       3488 Sep  1 01:03 proc
+drwxr-x---    4 u0_a214  u0_a214       3488 Oct  3 01:14 root
+drwxr-xr-x    9 u0_a214  u0_a214       3488 Oct  2 00:52 run
+lrwxrwxrwx    1 u0_a214  u0_a214         18 Aug 23 14:03 sbin -> usr/bin
+drwxr-xr-x    4 u0_a214  u0_a214       3488 Sep  1 01:03 srv
+-rwx------    1 u0_a214  u0_a214       6884 Oct  2 00:41 startarch
+dr-xr-xr-x    2 u0_a214  u0_a214       3488 Sep  1 01:03 sys
+drwxrwxrwt    4 u0_a214  u0_a214       3488 Oct  5 12:59 tmp
+drwxr-xr-x    8 u0_a214  u0_a214       3488 Oct  3 01:17 usr
+drwxr-xr-x   13 u0_a214  u0_a214       3488 Oct  2 00:34 var
+
+End `setupTermuxArchSysInfo5547.log` v1.6.4.id2096 system information.
