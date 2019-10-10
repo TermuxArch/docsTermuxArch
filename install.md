@@ -61,7 +61,7 @@ That's a lot of pentesting.  If you don't desire this much pentesting, don't ins
 
 Enjoy 😀 
 
-![Linux on Android](imgs/Screenshot_2017-10-18-06-09-29-831_com.termux.png)
+[![screenshot_20180413-172406](https://user-images.githubusercontent.com/27742457/38758637-ec0ff0dc-3f3f-11e8-802c-82bc511cde88.png)](https://TermuxArch.github.io/docsTermuxArch/install)
 
 This setup script will attempt to set Arch Linux up in your Termux.  When successfully completed, you will be at a bash prompt in [Arch Linux](https://archlinuxarm.org) in [Termux](https://termux.com/) using an Android smartphone, tablet or a Chromebook.
 
