@@ -28,7 +28,7 @@ Benefits of PRoot include running Linux operating systems in Termux on a smartph
 2. [Parabola](https://wiki.parabola.nu/Main_Page)
 2. [Red Hat](https://access.redhat.com/downloads/)
 2. [Slackware](Slackware)
-2. [Ubuntu](Ubuntu)
+2. [Ubuntu](https://people.debian.org/~wookey/bootstrap.html)
 
 
 This list of operating systems that run in Termux is not all inclusive. Please add Linux distributions to this list. Also, if you can add or improve any of the installation scripts, the community will be very grateful. 
