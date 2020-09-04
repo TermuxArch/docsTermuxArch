@@ -1,0 +1,826 @@
+==> Making package: heroku-cli 7.42.8-1 (Fri Sep  4 14:37:55 2020)
+==> Checking runtime dependencies...
+==> Checking buildtime dependencies...
+==> Installing missing dependencies...
+resolving dependencies...
+looking for conflicting packages...
+
+Packages (3) node-gyp-7.0.0-2  semver-7.3.2-1  npm-6.14.8-1
+
+Total Download Size:    4.47 MiB
+Total Installed Size:  27.08 MiB
+
+:: Proceed with installation? [Y/n] :: Retrieving packages...
+downloading semver-7.3.2-1-any.pkg.tar.xz...
+downloading node-gyp-7.0.0-2-any.pkg.tar.xz...
+downloading npm-6.14.8-1-any.pkg.tar.xz...
+checking keyring...
+checking package integrity...
+loading package files...
+checking for file conflicts...
+checking available disk space...
+:: Processing package changes...
+installing semver...
+installing node-gyp...
+installing npm...
+==> Retrieving sources...
+  -> Downloading heroku-7.42.8.tgz...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:06 --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:--  0:00:07 --:--:--     0
+100 14937  100 14937    0     0   1829      0  0:00:08  0:00:08 --:--:--  3210
+==> Validating source files with sha256sums...
+    heroku-7.42.8.tgz ... Passed
+==> Validating source files with sha512sums...
+    heroku-7.42.8.tgz ... Passed
+==> Extracting sources...
+==> Entering fakeroot environment...
+grep: (standard input): Operation not permitted
+grep: (standard input): Operation not permitted
+grep: (standard input): Operation not permitted
+grep: (standard input): Operation not permitted
+grep: (standard input): Operation not permitted
+grep: (standard input): Operation not permitted
+grep: (standard input): Operation not permitted
+grep: (standard input): Operation not permitted
+grep: (standard input): Operation not permitted
+==> Starting package()...
+npm WARN deprecated mkdirp@0.5.1: Legacy versions of mkdirp are no longer supported. Please update to mkdirp 1.x. (Note that the API surface has changed to use Promises in 1.x.)
+/home/tester/heroku/pkg/heroku-cli/usr/bin/heroku -> /home/tester/heroku/pkg/heroku-cli/usr/lib/node_modules/heroku/bin/run
++ heroku@7.42.8
+added 733 packages from 310 contributors in 294.26s
+==> Tidying install...
+  -> Removing libtool files...
+  -> Purging unwanted files...
+  -> Removing static library files...
+  -> Compressing man and info pages...
+==> Checking for packaging issues...
+==> WARNING: Package contains reference to $srcdir
+usr/lib/node_modules/heroku/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps-v5/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-certs-v5/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-ci-v5/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-ci/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-container-registry-v5/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-oauth-v5/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-orgs-v5/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-run/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-status/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-webhooks/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-redis-v5/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/color/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/command/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-addons-v5/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-auth/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-autocomplete/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-buildpacks/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-certs/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-config/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-git/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-local/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pg-v5/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-ps/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-ps-exec/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-spaces/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-commands/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-plugins/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-update/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-help/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/errors/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/config/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/command/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-legacy/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-not-found/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-warn-if-update-available/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-which/package.json
+usr/lib/node_modules/heroku/node_modules/cli-ux/package.json
+usr/lib/node_modules/heroku/node_modules/debug/package.json
+usr/lib/node_modules/heroku/node_modules/execa/package.json
+usr/lib/node_modules/heroku/node_modules/fs-extra/package.json
+usr/lib/node_modules/heroku/node_modules/http-call/package.json
+usr/lib/node_modules/heroku/node_modules/netrc-parser/package.json
+usr/lib/node_modules/heroku/node_modules/semver/package.json
+usr/lib/node_modules/heroku/node_modules/tslib/package.json
+usr/lib/node_modules/heroku/node_modules/uuid/package.json
+==> WARNING: Package contains reference to $pkgdir
+usr/lib/node_modules/heroku/node_modules/@heroku/socksv5/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku/buildpack-registry/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku/eventsource/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-addons/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-addons/node_modules/printf/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps-v5/node_modules/cli-cursor/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps-v5/node_modules/cli-width/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps-v5/node_modules/figures/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps-v5/node_modules/mute-stream/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps-v5/node_modules/onetime/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps-v5/node_modules/mimic-fn/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps-v5/node_modules/inquirer/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps-v5/node_modules/restore-cursor/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps/node_modules/ansi-escapes/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps/node_modules/ansi-regex/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps/node_modules/clean-stack/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps/node_modules/cli-ux/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps/node_modules/cli-ux/node_modules/@oclif/command/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps/node_modules/cli-ux/node_modules/@oclif/command/node_modules/@oclif/errors/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps/node_modules/cli-ux/node_modules/@oclif/config/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps/node_modules/cli-ux/node_modules/@oclif/config/node_modules/@oclif/errors/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps/node_modules/cli-ux/node_modules/tslib/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps/node_modules/color-convert/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps/node_modules/color-name/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps/node_modules/ansi-styles/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps/node_modules/@oclif/plugin-help/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps/node_modules/@oclif/plugin-help/node_modules/@oclif/errors/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps/node_modules/@oclif/plugin-help/node_modules/@oclif/errors/node_modules/wrap-ansi/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps/node_modules/@oclif/plugin-help/node_modules/@oclif/config/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps/node_modules/@oclif/plugin-help/node_modules/@oclif/command/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps/node_modules/@oclif/plugin-help/node_modules/ansi-regex/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps/node_modules/@oclif/plugin-help/node_modules/chalk/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps/node_modules/@oclif/plugin-help/node_modules/chalk/node_modules/ansi-styles/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps/node_modules/@oclif/plugin-help/node_modules/escape-string-regexp/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps/node_modules/@oclif/plugin-help/node_modules/color-name/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps/node_modules/@oclif/plugin-help/node_modules/is-fullwidth-code-point/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps/node_modules/@oclif/plugin-help/node_modules/color-convert/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps/node_modules/@oclif/plugin-help/node_modules/supports-color/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps/node_modules/@oclif/plugin-help/node_modules/wrap-ansi/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps/node_modules/@oclif/plugin-help/node_modules/wrap-ansi/node_modules/string-width/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps/node_modules/@oclif/plugin-help/node_modules/wrap-ansi/node_modules/ansi-styles/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps/node_modules/@oclif/plugin-help/node_modules/wrap-ansi/node_modules/strip-ansi/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps/node_modules/@oclif/plugin-help/node_modules/tslib/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps/node_modules/chalk/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps/node_modules/emoji-regex/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps/node_modules/escape-string-regexp/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps/node_modules/fs-extra/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps/node_modules/is-fullwidth-code-point/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps/node_modules/extract-stack/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps/node_modules/indent-string/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps/node_modules/jsonfile/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps/node_modules/string-width/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps/node_modules/is-wsl/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps/node_modules/semver/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps/node_modules/strip-ansi/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps/node_modules/supports-color/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps/node_modules/supports-color/node_modules/has-flag/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps/node_modules/universalify/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps/node_modules/supports-hyperlinks/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps/node_modules/supports-hyperlinks/node_modules/has-flag/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps/node_modules/widest-line/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-apps/node_modules/wrap-ansi/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-certs-v5/node_modules/date-fns/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-certs-v5/node_modules/inquirer/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-certs-v5/node_modules/mimic-fn/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-certs-v5/node_modules/mute-stream/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-certs-v5/node_modules/onetime/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-certs-v5/node_modules/restore-cursor/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-certs-v5/node_modules/cli-width/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-certs-v5/node_modules/cli-cursor/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-certs-v5/node_modules/figures/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-ci-v5/node_modules/validator/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-ci/node_modules/@sindresorhus/is/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-ci/node_modules/cli-cursor/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-ci/node_modules/cli-width/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-ci/node_modules/get-stream/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-ci/node_modules/got/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-ci/node_modules/cacheable-request/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-ci/node_modules/figures/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-ci/node_modules/http-cache-semantics/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-ci/node_modules/inquirer/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-ci/node_modules/keyv/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-ci/node_modules/mkdirp/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-ci/node_modules/minimist/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-ci/node_modules/mute-stream/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-ci/node_modules/nock/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-ci/node_modules/nock/node_modules/debug/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-ci/node_modules/onetime/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-ci/node_modules/p-cancelable/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-ci/node_modules/mimic-fn/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-ci/node_modules/normalize-url/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-ci/node_modules/restore-cursor/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-ci/node_modules/@types/node/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-container-registry-v5/node_modules/cli-cursor/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-container-registry-v5/node_modules/figures/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-container-registry-v5/node_modules/cli-width/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-container-registry-v5/node_modules/mute-stream/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-container-registry-v5/node_modules/inquirer/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-container-registry-v5/node_modules/mimic-fn/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-container-registry-v5/node_modules/restore-cursor/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-container-registry-v5/node_modules/onetime/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-oauth-v5/node_modules/date-fns/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-orgs-v5/node_modules/cli-width/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-orgs-v5/node_modules/figures/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-orgs-v5/node_modules/inquirer/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-orgs-v5/node_modules/cli-cursor/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-orgs-v5/node_modules/mute-stream/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-orgs-v5/node_modules/mimic-fn/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-orgs-v5/node_modules/onetime/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-orgs-v5/node_modules/restore-cursor/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/node_modules/ansi-escapes/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/node_modules/@oclif/plugin-help/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/node_modules/@oclif/plugin-help/node_modules/@oclif/errors/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/node_modules/@oclif/plugin-help/node_modules/@oclif/errors/node_modules/wrap-ansi/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/node_modules/@oclif/plugin-help/node_modules/@oclif/config/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/node_modules/@oclif/plugin-help/node_modules/@oclif/command/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/node_modules/@oclif/plugin-help/node_modules/color-name/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/node_modules/@oclif/plugin-help/node_modules/escape-string-regexp/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/node_modules/@oclif/plugin-help/node_modules/chalk/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/node_modules/@oclif/plugin-help/node_modules/chalk/node_modules/ansi-styles/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/node_modules/@oclif/plugin-help/node_modules/color-convert/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/node_modules/@oclif/plugin-help/node_modules/ansi-regex/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/node_modules/@oclif/plugin-help/node_modules/is-fullwidth-code-point/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/node_modules/@oclif/plugin-help/node_modules/wrap-ansi/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/node_modules/@oclif/plugin-help/node_modules/wrap-ansi/node_modules/ansi-styles/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/node_modules/@oclif/plugin-help/node_modules/wrap-ansi/node_modules/string-width/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/node_modules/@oclif/plugin-help/node_modules/wrap-ansi/node_modules/strip-ansi/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/node_modules/@oclif/plugin-help/node_modules/supports-color/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/node_modules/@sindresorhus/is/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/node_modules/ansi-styles/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/node_modules/cacheable-request/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/node_modules/cacheable-request/node_modules/get-stream/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/node_modules/cacheable-request/node_modules/lowercase-keys/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/node_modules/ansi-regex/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/node_modules/cli-ux/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/node_modules/cli-ux/node_modules/@oclif/command/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/node_modules/cli-ux/node_modules/@oclif/command/node_modules/@oclif/errors/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/node_modules/cli-ux/node_modules/@oclif/config/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/node_modules/cli-ux/node_modules/@oclif/config/node_modules/@oclif/errors/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/node_modules/chalk/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/node_modules/clean-stack/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/node_modules/emoji-regex/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/node_modules/escape-string-regexp/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/node_modules/extract-stack/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/node_modules/color-convert/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/node_modules/get-stream/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/node_modules/color-name/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/node_modules/got/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/node_modules/fs-extra/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/node_modules/http-cache-semantics/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/node_modules/indent-string/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/node_modules/is-wsl/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/node_modules/normalize-url/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/node_modules/is-fullwidth-code-point/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/node_modules/p-cancelable/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/node_modules/semver/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/node_modules/string-width/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/node_modules/strip-ansi/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/node_modules/supports-hyperlinks/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/node_modules/supports-hyperlinks/node_modules/has-flag/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/node_modules/jsonfile/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/node_modules/tslib/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/node_modules/supports-color/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/node_modules/supports-color/node_modules/has-flag/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/node_modules/universalify/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/node_modules/widest-line/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-pipelines/node_modules/wrap-ansi/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-run/node_modules/ansi-escapes/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-run/node_modules/chalk/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-run/node_modules/clean-stack/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-run/node_modules/cli-ux/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-run/node_modules/cli-ux/node_modules/@oclif/command/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-run/node_modules/cli-ux/node_modules/@oclif/command/node_modules/@oclif/errors/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-run/node_modules/cli-ux/node_modules/@oclif/config/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-run/node_modules/cli-ux/node_modules/@oclif/config/node_modules/@oclif/errors/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-run/node_modules/cli-ux/node_modules/tslib/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-run/node_modules/color-convert/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-run/node_modules/color-name/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-run/node_modules/emoji-regex/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-run/node_modules/escape-string-regexp/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-run/node_modules/extract-stack/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-run/node_modules/fs-extra/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-run/node_modules/indent-string/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-run/node_modules/is-fullwidth-code-point/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-run/node_modules/is-wsl/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-run/node_modules/jsonfile/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-run/node_modules/semver/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-run/node_modules/string-width/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-run/node_modules/strip-ansi/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-run/node_modules/supports-color/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-run/node_modules/supports-color/node_modules/has-flag/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-run/node_modules/ansi-styles/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-run/node_modules/supports-hyperlinks/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-run/node_modules/supports-hyperlinks/node_modules/has-flag/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-run/node_modules/@oclif/plugin-help/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-run/node_modules/@oclif/plugin-help/node_modules/ansi-regex/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-run/node_modules/@oclif/plugin-help/node_modules/color-convert/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-run/node_modules/@oclif/plugin-help/node_modules/chalk/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-run/node_modules/@oclif/plugin-help/node_modules/chalk/node_modules/ansi-styles/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-run/node_modules/@oclif/plugin-help/node_modules/@oclif/errors/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-run/node_modules/@oclif/plugin-help/node_modules/@oclif/errors/node_modules/wrap-ansi/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-run/node_modules/@oclif/plugin-help/node_modules/@oclif/config/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-run/node_modules/@oclif/plugin-help/node_modules/@oclif/command/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-run/node_modules/@oclif/plugin-help/node_modules/color-name/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-run/node_modules/@oclif/plugin-help/node_modules/escape-string-regexp/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-run/node_modules/@oclif/plugin-help/node_modules/tslib/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-run/node_modules/@oclif/plugin-help/node_modules/supports-color/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-run/node_modules/@oclif/plugin-help/node_modules/is-fullwidth-code-point/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-run/node_modules/@oclif/plugin-help/node_modules/wrap-ansi/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-run/node_modules/@oclif/plugin-help/node_modules/wrap-ansi/node_modules/string-width/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-run/node_modules/@oclif/plugin-help/node_modules/wrap-ansi/node_modules/ansi-styles/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-run/node_modules/@oclif/plugin-help/node_modules/wrap-ansi/node_modules/strip-ansi/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-run/node_modules/widest-line/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-run/node_modules/wrap-ansi/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-run/node_modules/universalify/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-run/node_modules/ansi-regex/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-status/node_modules/date-fns/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-webhooks/node_modules/ansi-regex/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-webhooks/node_modules/chalk/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-webhooks/node_modules/clean-stack/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-webhooks/node_modules/cli-ux/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-webhooks/node_modules/cli-ux/node_modules/@oclif/command/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-webhooks/node_modules/cli-ux/node_modules/@oclif/command/node_modules/@oclif/errors/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-webhooks/node_modules/cli-ux/node_modules/@oclif/config/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-webhooks/node_modules/cli-ux/node_modules/@oclif/config/node_modules/@oclif/errors/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-webhooks/node_modules/cli-ux/node_modules/tslib/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-webhooks/node_modules/color-convert/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-webhooks/node_modules/color-name/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-webhooks/node_modules/emoji-regex/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-webhooks/node_modules/escape-string-regexp/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-webhooks/node_modules/extract-stack/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-webhooks/node_modules/fs-extra/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-webhooks/node_modules/indent-string/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-webhooks/node_modules/is-fullwidth-code-point/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-webhooks/node_modules/is-wsl/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-webhooks/node_modules/jsonfile/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-webhooks/node_modules/semver/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-webhooks/node_modules/string-width/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-webhooks/node_modules/ansi-styles/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-webhooks/node_modules/@oclif/plugin-help/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-webhooks/node_modules/@oclif/plugin-help/node_modules/@oclif/errors/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-webhooks/node_modules/@oclif/plugin-help/node_modules/@oclif/errors/node_modules/wrap-ansi/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-webhooks/node_modules/@oclif/plugin-help/node_modules/@oclif/config/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-webhooks/node_modules/@oclif/plugin-help/node_modules/@oclif/command/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-webhooks/node_modules/@oclif/plugin-help/node_modules/chalk/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-webhooks/node_modules/@oclif/plugin-help/node_modules/chalk/node_modules/ansi-styles/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-webhooks/node_modules/@oclif/plugin-help/node_modules/color-convert/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-webhooks/node_modules/@oclif/plugin-help/node_modules/color-name/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-webhooks/node_modules/@oclif/plugin-help/node_modules/ansi-regex/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-webhooks/node_modules/@oclif/plugin-help/node_modules/escape-string-regexp/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-webhooks/node_modules/@oclif/plugin-help/node_modules/supports-color/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-webhooks/node_modules/@oclif/plugin-help/node_modules/is-fullwidth-code-point/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-webhooks/node_modules/@oclif/plugin-help/node_modules/tslib/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-webhooks/node_modules/@oclif/plugin-help/node_modules/wrap-ansi/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-webhooks/node_modules/@oclif/plugin-help/node_modules/wrap-ansi/node_modules/ansi-styles/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-webhooks/node_modules/@oclif/plugin-help/node_modules/wrap-ansi/node_modules/string-width/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-webhooks/node_modules/@oclif/plugin-help/node_modules/wrap-ansi/node_modules/strip-ansi/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-webhooks/node_modules/strip-ansi/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-webhooks/node_modules/supports-color/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-webhooks/node_modules/supports-color/node_modules/has-flag/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-webhooks/node_modules/ansi-escapes/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-webhooks/node_modules/universalify/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-webhooks/node_modules/widest-line/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-webhooks/node_modules/wrap-ansi/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-webhooks/node_modules/supports-hyperlinks/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-webhooks/node_modules/supports-hyperlinks/node_modules/has-flag/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/schema/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-redis-v5/node_modules/ssh2/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-redis-v5/node_modules/ssh2-streams/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/notifications/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-run-v5/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-buildpacks/node_modules/@types/node/package.json
+usr/lib/node_modules/heroku/node_modules/@heroku-cli/plugin-buildpacks/node_modules/tslib/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/linewrap/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-commands/node_modules/@oclif/plugin-help/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-commands/node_modules/@oclif/plugin-help/node_modules/@oclif/errors/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-commands/node_modules/@oclif/plugin-help/node_modules/@oclif/errors/node_modules/wrap-ansi/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-commands/node_modules/@oclif/plugin-help/node_modules/@oclif/config/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-commands/node_modules/@oclif/plugin-help/node_modules/@oclif/command/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-commands/node_modules/@oclif/plugin-help/node_modules/color-convert/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-commands/node_modules/@oclif/plugin-help/node_modules/color-name/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-commands/node_modules/@oclif/plugin-help/node_modules/chalk/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-commands/node_modules/@oclif/plugin-help/node_modules/chalk/node_modules/ansi-styles/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-commands/node_modules/@oclif/plugin-help/node_modules/ansi-regex/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-commands/node_modules/@oclif/plugin-help/node_modules/escape-string-regexp/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-commands/node_modules/@oclif/plugin-help/node_modules/is-fullwidth-code-point/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-commands/node_modules/@oclif/plugin-help/node_modules/supports-color/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-commands/node_modules/@oclif/plugin-help/node_modules/wrap-ansi/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-commands/node_modules/@oclif/plugin-help/node_modules/wrap-ansi/node_modules/ansi-styles/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-commands/node_modules/@oclif/plugin-help/node_modules/wrap-ansi/node_modules/strip-ansi/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-commands/node_modules/@oclif/plugin-help/node_modules/wrap-ansi/node_modules/string-width/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-commands/node_modules/ansi-regex/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-commands/node_modules/ansi-escapes/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-commands/node_modules/ansi-styles/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-commands/node_modules/chalk/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-commands/node_modules/color-name/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-commands/node_modules/cli-ux/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-commands/node_modules/cli-ux/node_modules/@oclif/command/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-commands/node_modules/cli-ux/node_modules/@oclif/command/node_modules/@oclif/errors/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-commands/node_modules/cli-ux/node_modules/@oclif/config/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-commands/node_modules/cli-ux/node_modules/@oclif/config/node_modules/@oclif/errors/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-commands/node_modules/color-convert/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-commands/node_modules/clean-stack/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-commands/node_modules/emoji-regex/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-commands/node_modules/extract-stack/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-commands/node_modules/fs-extra/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-commands/node_modules/indent-string/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-commands/node_modules/is-fullwidth-code-point/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-commands/node_modules/is-wsl/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-commands/node_modules/escape-string-regexp/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-commands/node_modules/jsonfile/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-commands/node_modules/semver/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-commands/node_modules/string-width/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-commands/node_modules/strip-ansi/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-commands/node_modules/supports-color/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-commands/node_modules/supports-color/node_modules/has-flag/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-commands/node_modules/tslib/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-commands/node_modules/universalify/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-commands/node_modules/widest-line/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-commands/node_modules/wrap-ansi/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-commands/node_modules/supports-hyperlinks/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-commands/node_modules/supports-hyperlinks/node_modules/has-flag/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-plugins/node_modules/@oclif/config/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-plugins/node_modules/@oclif/config/node_modules/fs-extra/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-plugins/node_modules/@oclif/config/node_modules/tslib/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-plugins/node_modules/@oclif/config/node_modules/@oclif/errors/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-plugins/node_modules/@oclif/plugin-help/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-plugins/node_modules/@oclif/plugin-help/node_modules/@oclif/errors/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-plugins/node_modules/@oclif/plugin-help/node_modules/@oclif/errors/node_modules/wrap-ansi/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-plugins/node_modules/@oclif/plugin-help/node_modules/@oclif/command/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-plugins/node_modules/@oclif/plugin-help/node_modules/color-name/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-plugins/node_modules/@oclif/plugin-help/node_modules/fs-extra/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-plugins/node_modules/@oclif/plugin-help/node_modules/is-fullwidth-code-point/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-plugins/node_modules/@oclif/plugin-help/node_modules/semver/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-plugins/node_modules/@oclif/plugin-help/node_modules/color-convert/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-plugins/node_modules/@oclif/plugin-help/node_modules/wrap-ansi/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-plugins/node_modules/@oclif/plugin-help/node_modules/wrap-ansi/node_modules/ansi-styles/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-plugins/node_modules/@oclif/plugin-help/node_modules/wrap-ansi/node_modules/string-width/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-plugins/node_modules/@oclif/plugin-help/node_modules/wrap-ansi/node_modules/strip-ansi/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-plugins/node_modules/@oclif/plugin-help/node_modules/ansi-regex/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-plugins/node_modules/ansi-regex/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-plugins/node_modules/ansi-escapes/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-plugins/node_modules/clean-stack/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-plugins/node_modules/cli-ux/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-plugins/node_modules/cli-ux/node_modules/@oclif/command/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-plugins/node_modules/cli-ux/node_modules/@oclif/command/node_modules/@oclif/errors/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-plugins/node_modules/cli-ux/node_modules/tslib/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-plugins/node_modules/cli-ux/node_modules/fs-extra/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-plugins/node_modules/cli-ux/node_modules/semver/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-plugins/node_modules/cli-ux/node_modules/chalk/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-plugins/node_modules/color-convert/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-plugins/node_modules/color-name/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-plugins/node_modules/emoji-regex/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-plugins/node_modules/ansi-styles/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-plugins/node_modules/escape-string-regexp/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-plugins/node_modules/indent-string/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-plugins/node_modules/has-flag/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-plugins/node_modules/is-fullwidth-code-point/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-plugins/node_modules/is-wsl/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-plugins/node_modules/npm-run-path/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-plugins/node_modules/path-key/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-plugins/node_modules/string-width/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-plugins/node_modules/extract-stack/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-plugins/node_modules/jsonfile/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-plugins/node_modules/strip-ansi/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-plugins/node_modules/supports-color/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-plugins/node_modules/supports-hyperlinks/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-plugins/node_modules/universalify/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-plugins/node_modules/widest-line/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-plugins/node_modules/wrap-ansi/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-update/node_modules/filesize/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/screen/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/plugin-help/node_modules/string-width/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/color/package.json
+usr/lib/node_modules/heroku/node_modules/@oclif/parser/package.json
+usr/lib/node_modules/heroku/node_modules/@nodelib/fs.stat/package.json
+usr/lib/node_modules/heroku/node_modules/@nodelib/fs.scandir/package.json
+usr/lib/node_modules/heroku/node_modules/@nodelib/fs.walk/package.json
+usr/lib/node_modules/heroku/node_modules/@sindresorhus/is/package.json
+usr/lib/node_modules/heroku/node_modules/@types/color-name/package.json
+usr/lib/node_modules/heroku/node_modules/@types/semver/package.json
+usr/lib/node_modules/heroku/node_modules/@szmarczak/http-timer/package.json
+usr/lib/node_modules/heroku/node_modules/abbrev/package.json
+usr/lib/node_modules/heroku/node_modules/ansi-escapes/package.json
+usr/lib/node_modules/heroku/node_modules/ansi-regex/package.json
+usr/lib/node_modules/heroku/node_modules/ansi-styles/package.json
+usr/lib/node_modules/heroku/node_modules/ansicolors/package.json
+usr/lib/node_modules/heroku/node_modules/argparse/package.json
+usr/lib/node_modules/heroku/node_modules/array-union/package.json
+usr/lib/node_modules/heroku/node_modules/app-path/package.json
+usr/lib/node_modules/heroku/node_modules/async-file/package.json
+usr/lib/node_modules/heroku/node_modules/asn1/package.json
+usr/lib/node_modules/heroku/node_modules/async-limiter/package.json
+usr/lib/node_modules/heroku/node_modules/at-least-node/package.json
+usr/lib/node_modules/heroku/node_modules/bluebird/package.json
+usr/lib/node_modules/heroku/node_modules/balanced-match/package.json
+usr/lib/node_modules/heroku/node_modules/bl/package.json
+usr/lib/node_modules/heroku/node_modules/brace-expansion/package.json
+usr/lib/node_modules/heroku/node_modules/buffer-alloc/package.json
+usr/lib/node_modules/heroku/node_modules/braces/package.json
+usr/lib/node_modules/heroku/node_modules/base64-js/package.json
+usr/lib/node_modules/heroku/node_modules/buffer-fill/package.json
+usr/lib/node_modules/heroku/node_modules/buffer-alloc-unsafe/package.json
+usr/lib/node_modules/heroku/node_modules/byline/package.json
+usr/lib/node_modules/heroku/node_modules/cardinal/package.json
+usr/lib/node_modules/heroku/node_modules/cacheable-request/package.json
+usr/lib/node_modules/heroku/node_modules/cacheable-request/node_modules/lowercase-keys/package.json
+usr/lib/node_modules/heroku/node_modules/chalk/package.json
+usr/lib/node_modules/heroku/node_modules/chownr/package.json
+usr/lib/node_modules/heroku/node_modules/chardet/package.json
+usr/lib/node_modules/heroku/node_modules/bytes/package.json
+usr/lib/node_modules/heroku/node_modules/cli-progress/package.json
+usr/lib/node_modules/heroku/node_modules/cli-progress/node_modules/ansi-regex/package.json
+usr/lib/node_modules/heroku/node_modules/cli-progress/node_modules/emoji-regex/package.json
+usr/lib/node_modules/heroku/node_modules/cli-progress/node_modules/is-fullwidth-code-point/package.json
+usr/lib/node_modules/heroku/node_modules/cli-progress/node_modules/string-width/package.json
+usr/lib/node_modules/heroku/node_modules/cli-progress/node_modules/strip-ansi/package.json
+usr/lib/node_modules/heroku/node_modules/clean-stack/package.json
+usr/lib/node_modules/heroku/node_modules/cli-cursor/package.json
+usr/lib/node_modules/heroku/node_modules/cli-width/package.json
+usr/lib/node_modules/heroku/node_modules/clone-response/package.json
+usr/lib/node_modules/heroku/node_modules/color-convert/package.json
+usr/lib/node_modules/heroku/node_modules/co-wait/package.json
+usr/lib/node_modules/heroku/node_modules/co/package.json
+usr/lib/node_modules/heroku/node_modules/color-name/package.json
+usr/lib/node_modules/heroku/node_modules/cli-ux/node_modules/clean-stack/package.json
+usr/lib/node_modules/heroku/node_modules/colors/package.json
+usr/lib/node_modules/heroku/node_modules/commander/package.json
+usr/lib/node_modules/heroku/node_modules/concat-map/package.json
+usr/lib/node_modules/heroku/node_modules/content-type/package.json
+usr/lib/node_modules/heroku/node_modules/cross-spawn/package.json
+usr/lib/node_modules/heroku/node_modules/date-fns/package.json
+usr/lib/node_modules/heroku/node_modules/decode-uri-component/package.json
+usr/lib/node_modules/heroku/node_modules/defer-to-connect/package.json
+usr/lib/node_modules/heroku/node_modules/decompress-response/package.json
+usr/lib/node_modules/heroku/node_modules/edit-string/package.json
+usr/lib/node_modules/heroku/node_modules/edit-string/node_modules/debug/package.json
+usr/lib/node_modules/heroku/node_modules/edit-string/node_modules/execa/package.json
+usr/lib/node_modules/heroku/node_modules/edit-string/node_modules/is-stream/package.json
+usr/lib/node_modules/heroku/node_modules/dir-glob/package.json
+usr/lib/node_modules/heroku/node_modules/duplexer3/package.json
+usr/lib/node_modules/heroku/node_modules/emoji-regex/package.json
+usr/lib/node_modules/heroku/node_modules/error-ex/package.json
+usr/lib/node_modules/heroku/node_modules/core-util-is/package.json
+usr/lib/node_modules/heroku/node_modules/end-of-stream/package.json
+usr/lib/node_modules/heroku/node_modules/escape-string-regexp/package.json
+usr/lib/node_modules/heroku/node_modules/eventemitter3/package.json
+usr/lib/node_modules/heroku/node_modules/external-editor/package.json
+usr/lib/node_modules/heroku/node_modules/esprima/package.json
+usr/lib/node_modules/heroku/node_modules/extract-stack/package.json
+usr/lib/node_modules/heroku/node_modules/execa/node_modules/get-stream/package.json
+usr/lib/node_modules/heroku/node_modules/execa/node_modules/is-stream/package.json
+usr/lib/node_modules/heroku/node_modules/fast-glob/package.json
+usr/lib/node_modules/heroku/node_modules/figures/package.json
+usr/lib/node_modules/heroku/node_modules/fast-levenshtein/package.json
+usr/lib/node_modules/heroku/node_modules/filesize/package.json
+usr/lib/node_modules/heroku/node_modules/fastq/package.json
+usr/lib/node_modules/heroku/node_modules/fill-range/package.json
+usr/lib/node_modules/heroku/node_modules/follow-redirects/package.json
+usr/lib/node_modules/heroku/node_modules/from2/package.json
+usr/lib/node_modules/heroku/node_modules/fs-constants/package.json
+usr/lib/node_modules/heroku/node_modules/fs.realpath/package.json
+usr/lib/node_modules/heroku/node_modules/github-url-to-object/package.json
+usr/lib/node_modules/heroku/node_modules/get-stream/package.json
+usr/lib/node_modules/heroku/node_modules/foreman/package.json
+usr/lib/node_modules/heroku/node_modules/globby/package.json
+usr/lib/node_modules/heroku/node_modules/glob-parent/package.json
+usr/lib/node_modules/heroku/node_modules/glob/package.json
+usr/lib/node_modules/heroku/node_modules/graceful-fs/package.json
+usr/lib/node_modules/heroku/node_modules/growly/package.json
+usr/lib/node_modules/heroku/node_modules/has-ansi/package.json
+usr/lib/node_modules/heroku/node_modules/has-ansi/node_modules/ansi-regex/package.json
+usr/lib/node_modules/heroku/node_modules/has-flag/package.json
+usr/lib/node_modules/heroku/node_modules/has-symbol-support-x/package.json
+usr/lib/node_modules/heroku/node_modules/has-to-string-tag-x/package.json
+usr/lib/node_modules/heroku/node_modules/here/package.json
+usr/lib/node_modules/heroku/node_modules/heroku-cli-util/package.json
+usr/lib/node_modules/heroku/node_modules/heroku-cli-util/node_modules/strip-ansi/package.json
+usr/lib/node_modules/heroku/node_modules/heroku-cli-util/node_modules/ansi-regex/package.json
+usr/lib/node_modules/heroku/node_modules/heroku-client/package.json
+usr/lib/node_modules/heroku/node_modules/http-cache-semantics/package.json
+usr/lib/node_modules/heroku/node_modules/got/package.json
+usr/lib/node_modules/heroku/node_modules/heroku-exec-util/package.json
+usr/lib/node_modules/heroku/node_modules/heroku-exec-util/node_modules/rimraf/package.json
+usr/lib/node_modules/heroku/node_modules/heroku-exec-util/node_modules/ssh2/package.json
+usr/lib/node_modules/heroku/node_modules/heroku-exec-util/node_modules/uuid/package.json
+usr/lib/node_modules/heroku/node_modules/heroku-exec-util/node_modules/ssh2-streams/package.json
+usr/lib/node_modules/heroku/node_modules/heroku-exec-util/node_modules/temp/package.json
+usr/lib/node_modules/heroku/node_modules/http-proxy/package.json
+usr/lib/node_modules/heroku/node_modules/hyperlinker/package.json
+usr/lib/node_modules/heroku/node_modules/ignore/package.json
+usr/lib/node_modules/heroku/node_modules/indent-string/package.json
+usr/lib/node_modules/heroku/node_modules/iconv-lite/package.json
+usr/lib/node_modules/heroku/node_modules/inherits/package.json
+usr/lib/node_modules/heroku/node_modules/inflight/package.json
+usr/lib/node_modules/heroku/node_modules/inquirer/package.json
+usr/lib/node_modules/heroku/node_modules/inquirer/node_modules/ansi-escapes/package.json
+usr/lib/node_modules/heroku/node_modules/inquirer/node_modules/ansi-styles/package.json
+usr/lib/node_modules/heroku/node_modules/inquirer/node_modules/color-convert/package.json
+usr/lib/node_modules/heroku/node_modules/inquirer/node_modules/color-name/package.json
+usr/lib/node_modules/heroku/node_modules/inquirer/node_modules/has-flag/package.json
+usr/lib/node_modules/heroku/node_modules/inquirer/node_modules/is-fullwidth-code-point/package.json
+usr/lib/node_modules/heroku/node_modules/inquirer/node_modules/string-width/package.json
+usr/lib/node_modules/heroku/node_modules/inquirer/node_modules/strip-ansi/package.json
+usr/lib/node_modules/heroku/node_modules/inquirer/node_modules/supports-color/package.json
+usr/lib/node_modules/heroku/node_modules/inquirer/node_modules/emoji-regex/package.json
+usr/lib/node_modules/heroku/node_modules/inquirer/node_modules/ansi-regex/package.json
+usr/lib/node_modules/heroku/node_modules/inquirer/node_modules/chalk/package.json
+usr/lib/node_modules/heroku/node_modules/ip-address/package.json
+usr/lib/node_modules/heroku/node_modules/ip-address/node_modules/sprintf-js/package.json
+usr/lib/node_modules/heroku/node_modules/into-stream/package.json
+usr/lib/node_modules/heroku/node_modules/is-arrayish/package.json
+usr/lib/node_modules/heroku/node_modules/is-docker/package.json
+usr/lib/node_modules/heroku/node_modules/is-fullwidth-code-point/package.json
+usr/lib/node_modules/heroku/node_modules/is-extglob/package.json
+usr/lib/node_modules/heroku/node_modules/is-number/package.json
+usr/lib/node_modules/heroku/node_modules/is-plain-obj/package.json
+usr/lib/node_modules/heroku/node_modules/is-retry-allowed/package.json
+usr/lib/node_modules/heroku/node_modules/is-glob/package.json
+usr/lib/node_modules/heroku/node_modules/is-object/package.json
+usr/lib/node_modules/heroku/node_modules/is-stream/package.json
+usr/lib/node_modules/heroku/node_modules/is-url/package.json
+usr/lib/node_modules/heroku/node_modules/isarray/package.json
+usr/lib/node_modules/heroku/node_modules/isurl/package.json
+usr/lib/node_modules/heroku/node_modules/is-wsl/package.json
+usr/lib/node_modules/heroku/node_modules/iterm2-version/package.json
+usr/lib/node_modules/heroku/node_modules/js-yaml/package.json
+usr/lib/node_modules/heroku/node_modules/isexe/package.json
+usr/lib/node_modules/heroku/node_modules/json-buffer/package.json
+usr/lib/node_modules/heroku/node_modules/json-parse-better-errors/package.json
+usr/lib/node_modules/heroku/node_modules/jsbn/package.json
+usr/lib/node_modules/heroku/node_modules/keypair/package.json
+usr/lib/node_modules/heroku/node_modules/jsonfile/package.json
+usr/lib/node_modules/heroku/node_modules/load-json-file/package.json
+usr/lib/node_modules/heroku/node_modules/load-json-file/node_modules/type-fest/package.json
+usr/lib/node_modules/heroku/node_modules/load-json-file/node_modules/pify/package.json
+usr/lib/node_modules/heroku/node_modules/keyv/package.json
+usr/lib/node_modules/heroku/node_modules/lodash/package.json
+usr/lib/node_modules/heroku/node_modules/lodash._reinterpolate/package.json
+usr/lib/node_modules/heroku/node_modules/lodash.flatten/package.json
+usr/lib/node_modules/heroku/node_modules/lodash.defaults/package.json
+usr/lib/node_modules/heroku/node_modules/lodash.sortby/package.json
+usr/lib/node_modules/heroku/node_modules/lodash.keyby/package.json
+usr/lib/node_modules/heroku/node_modules/lodash.template/package.json
+usr/lib/node_modules/heroku/node_modules/lodash.templatesettings/package.json
+usr/lib/node_modules/heroku/node_modules/log-chopper/package.json
+usr/lib/node_modules/heroku/node_modules/lowercase-keys/package.json
+usr/lib/node_modules/heroku/node_modules/mimic-fn/package.json
+usr/lib/node_modules/heroku/node_modules/merge2/package.json
+usr/lib/node_modules/heroku/node_modules/mimic-response/package.json
+usr/lib/node_modules/heroku/node_modules/minimist/package.json
+usr/lib/node_modules/heroku/node_modules/mkdirp/package.json
+usr/lib/node_modules/heroku/node_modules/minimatch/package.json
+usr/lib/node_modules/heroku/node_modules/micromatch/package.json
+usr/lib/node_modules/heroku/node_modules/mustache/package.json
+usr/lib/node_modules/heroku/node_modules/mute-stream/package.json
+usr/lib/node_modules/heroku/node_modules/netrc-parser/node_modules/debug/package.json
+usr/lib/node_modules/heroku/node_modules/netrc-parser/node_modules/is-stream/package.json
+usr/lib/node_modules/heroku/node_modules/netrc-parser/node_modules/execa/package.json
+usr/lib/node_modules/heroku/node_modules/natural-orderby/package.json
+usr/lib/node_modules/heroku/node_modules/ms/package.json
+usr/lib/node_modules/heroku/node_modules/nice-try/package.json
+usr/lib/node_modules/heroku/node_modules/node-fetch/package.json
+usr/lib/node_modules/heroku/node_modules/normalize-url/package.json
+usr/lib/node_modules/heroku/node_modules/node-notifier/package.json
+usr/lib/node_modules/heroku/node_modules/npm-run-path/package.json
+usr/lib/node_modules/heroku/node_modules/nopt/package.json
+usr/lib/node_modules/heroku/node_modules/node-forge/package.json
+usr/lib/node_modules/heroku/node_modules/object-assign/package.json
+usr/lib/node_modules/heroku/node_modules/object-treeify/package.json
+usr/lib/node_modules/heroku/node_modules/once/package.json
+usr/lib/node_modules/heroku/node_modules/onetime/package.json
+usr/lib/node_modules/heroku/node_modules/opn/package.json
+usr/lib/node_modules/heroku/node_modules/os-homedir/package.json
+usr/lib/node_modules/heroku/node_modules/open/package.json
+usr/lib/node_modules/heroku/node_modules/os-tmpdir/package.json
+usr/lib/node_modules/heroku/node_modules/original/package.json
+usr/lib/node_modules/heroku/node_modules/osenv/package.json
+usr/lib/node_modules/heroku/node_modules/p-is-promise/package.json
+usr/lib/node_modules/heroku/node_modules/p-timeout/package.json
+usr/lib/node_modules/heroku/node_modules/p-finally/package.json
+usr/lib/node_modules/heroku/node_modules/p-cancelable/package.json
+usr/lib/node_modules/heroku/node_modules/parse-json/package.json
+usr/lib/node_modules/heroku/node_modules/path-is-absolute/package.json
+usr/lib/node_modules/heroku/node_modules/path-key/package.json
+usr/lib/node_modules/heroku/node_modules/phoenix/package.json
+usr/lib/node_modules/heroku/node_modules/picomatch/package.json
+usr/lib/node_modules/heroku/node_modules/pify/package.json
+usr/lib/node_modules/heroku/node_modules/password-prompt/package.json
+usr/lib/node_modules/heroku/node_modules/prepend-http/package.json
+usr/lib/node_modules/heroku/node_modules/plist/package.json
+usr/lib/node_modules/heroku/node_modules/printf/package.json
+usr/lib/node_modules/heroku/node_modules/process-nextick-args/package.json
+usr/lib/node_modules/heroku/node_modules/psl/package.json
+usr/lib/node_modules/heroku/node_modules/query-string/package.json
+usr/lib/node_modules/heroku/node_modules/querystringify/package.json
+usr/lib/node_modules/heroku/node_modules/pump/package.json
+usr/lib/node_modules/heroku/node_modules/readable-stream/package.json
+usr/lib/node_modules/heroku/node_modules/readable-stream/node_modules/safe-buffer/package.json
+usr/lib/node_modules/heroku/node_modules/redeyed/package.json
+usr/lib/node_modules/heroku/node_modules/path-type/package.json
+usr/lib/node_modules/heroku/node_modules/redis-parser/package.json
+usr/lib/node_modules/heroku/node_modules/redis-errors/package.json
+usr/lib/node_modules/heroku/node_modules/requires-port/package.json
+usr/lib/node_modules/heroku/node_modules/restore-cursor/package.json
+usr/lib/node_modules/heroku/node_modules/rimraf/package.json
+usr/lib/node_modules/heroku/node_modules/reusify/package.json
+usr/lib/node_modules/heroku/node_modules/run-async/package.json
+usr/lib/node_modules/heroku/node_modules/run-parallel/package.json
+usr/lib/node_modules/heroku/node_modules/responselike/package.json
+usr/lib/node_modules/heroku/node_modules/rxjs/package.json
+usr/lib/node_modules/heroku/node_modules/safer-buffer/package.json
+usr/lib/node_modules/heroku/node_modules/safe-buffer/package.json
+usr/lib/node_modules/heroku/node_modules/shebang-command/package.json
+usr/lib/node_modules/heroku/node_modules/shebang-regex/package.json
+usr/lib/node_modules/heroku/node_modules/shell-quote/package.json
+usr/lib/node_modules/heroku/node_modules/shell-escape/package.json
+usr/lib/node_modules/heroku/node_modules/shellwords/package.json
+usr/lib/node_modules/heroku/node_modules/smooth-progress/package.json
+usr/lib/node_modules/heroku/node_modules/smooth-progress/node_modules/ansi-escapes/package.json
+usr/lib/node_modules/heroku/node_modules/smooth-progress/node_modules/ansi-regex/package.json
+usr/lib/node_modules/heroku/node_modules/smooth-progress/node_modules/ansi-styles/package.json
+usr/lib/node_modules/heroku/node_modules/smooth-progress/node_modules/strip-ansi/package.json
+usr/lib/node_modules/heroku/node_modules/smooth-progress/node_modules/supports-color/package.json
+usr/lib/node_modules/heroku/node_modules/smooth-progress/node_modules/chalk/package.json
+usr/lib/node_modules/heroku/node_modules/signal-exit/package.json
+usr/lib/node_modules/heroku/node_modules/slash/package.json
+usr/lib/node_modules/heroku/node_modules/sort-keys/package.json
+usr/lib/node_modules/heroku/node_modules/sparkline/package.json
+usr/lib/node_modules/heroku/node_modules/sprintf-js/package.json
+usr/lib/node_modules/heroku/node_modules/streamsearch/package.json
+usr/lib/node_modules/heroku/node_modules/strftime/package.json
+usr/lib/node_modules/heroku/node_modules/ssh2-streams/package.json
+usr/lib/node_modules/heroku/node_modules/strict-uri-encode/package.json
+usr/lib/node_modules/heroku/node_modules/string-width/package.json
+usr/lib/node_modules/heroku/node_modules/string-width/node_modules/ansi-regex/package.json
+usr/lib/node_modules/heroku/node_modules/string-width/node_modules/strip-ansi/package.json
+usr/lib/node_modules/heroku/node_modules/strip-ansi/package.json
+usr/lib/node_modules/heroku/node_modules/strip-bom/package.json
+usr/lib/node_modules/heroku/node_modules/string_decoder/package.json
+usr/lib/node_modules/heroku/node_modules/string_decoder/node_modules/safe-buffer/package.json
+usr/lib/node_modules/heroku/node_modules/ssh2/package.json
+usr/lib/node_modules/heroku/node_modules/strip-eof/package.json
+usr/lib/node_modules/heroku/node_modules/tar-fs/package.json
+usr/lib/node_modules/heroku/node_modules/tar-fs/node_modules/pump/package.json
+usr/lib/node_modules/heroku/node_modules/supports-color/package.json
+usr/lib/node_modules/heroku/node_modules/tar-stream/package.json
+usr/lib/node_modules/heroku/node_modules/supports-hyperlinks/package.json
+usr/lib/node_modules/heroku/node_modules/supports-hyperlinks/node_modules/has-flag/package.json
+usr/lib/node_modules/heroku/node_modules/term-img/package.json
+usr/lib/node_modules/heroku/node_modules/term-img/node_modules/ansi-escapes/package.json
+usr/lib/node_modules/heroku/node_modules/through/package.json
+usr/lib/node_modules/heroku/node_modules/timed-out/package.json
+usr/lib/node_modules/heroku/node_modules/temp/package.json
+usr/lib/node_modules/heroku/node_modules/temp/node_modules/rimraf/package.json
+usr/lib/node_modules/heroku/node_modules/tmp/package.json
+usr/lib/node_modules/heroku/node_modules/to-buffer/package.json
+usr/lib/node_modules/heroku/node_modules/to-readable-stream/package.json
+usr/lib/node_modules/heroku/node_modules/true-myth/package.json
+usr/lib/node_modules/heroku/node_modules/to-regex-range/package.json
+usr/lib/node_modules/heroku/node_modules/tunnel-agent/package.json
+usr/lib/node_modules/heroku/node_modules/tunnel-ssh/package.json
+usr/lib/node_modules/heroku/node_modules/tunnel-ssh/node_modules/debug/package.json
+usr/lib/node_modules/heroku/node_modules/tunnel-ssh/node_modules/ms/package.json
+usr/lib/node_modules/heroku/node_modules/type-fest/package.json
+usr/lib/node_modules/heroku/node_modules/urijs/package.json
+usr/lib/node_modules/heroku/node_modules/url-parse-lax/package.json
+usr/lib/node_modules/heroku/node_modules/url-parse/package.json
+usr/lib/node_modules/heroku/node_modules/treeify/package.json
+usr/lib/node_modules/heroku/node_modules/universalify/package.json
+usr/lib/node_modules/heroku/node_modules/url-to-options/package.json
+usr/lib/node_modules/heroku/node_modules/util-deprecate/package.json
+usr/lib/node_modules/heroku/node_modules/validator/package.json
+usr/lib/node_modules/heroku/node_modules/which/package.json
+usr/lib/node_modules/heroku/node_modules/valid-url/package.json
+usr/lib/node_modules/heroku/node_modules/widest-line/package.json
+usr/lib/node_modules/heroku/node_modules/wrap-ansi/package.json
+usr/lib/node_modules/heroku/node_modules/wrap-ansi/node_modules/strip-ansi/package.json
+usr/lib/node_modules/heroku/node_modules/wrap-ansi/node_modules/ansi-regex/package.json
+usr/lib/node_modules/heroku/node_modules/xmlbuilder/package.json
+usr/lib/node_modules/heroku/node_modules/wrappy/package.json
+usr/lib/node_modules/heroku/node_modules/xmldom/package.json
+usr/lib/node_modules/heroku/node_modules/xtend/package.json
+usr/lib/node_modules/heroku/node_modules/ws/package.json
+usr/lib/node_modules/heroku/node_modules/yarn/package.json
+==> Creating package "heroku-cli"...
+  -> Generating .PKGINFO file...
+  -> Generating .BUILDINFO file...
+  -> Generating .MTREE file...
+  -> Compressing package...
+==> Leaving fakeroot environment.
+==> Finished making: heroku-cli 7.42.8-1 (Fri Sep  4 15:01:43 2020)
+==> Installing package heroku-cli with pacman -U...
+loading packages...
+resolving dependencies...
+looking for conflicting packages...
+
+Packages (1) heroku-cli-7.42.8-1
+
+Total Installed Size:  50.28 MiB
+
+:: Proceed with installation? [Y/n] checking keyring...
+checking package integrity...
+loading package files...
+checking for file conflicts...
+checking available disk space...
+:: Processing package changes...
+installing heroku-cli...
+Optional dependencies for heroku-cli
+    git: Deploying to Heroku [installed]
