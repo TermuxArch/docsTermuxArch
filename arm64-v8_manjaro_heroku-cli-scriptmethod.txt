@@ -1,3 +1,8 @@
+# About - The below mentioned log is the output of heroku-cli installation of x86_64 heroku-cli package using standalone heroku installation script ( curl https://cli-assets.heroku.com/install.sh | sh ) running on a arm64-v8 device inside manjaro arm rootfs 
+# Note - Line 37 of script is changed to the uname -m output of test device
+# Just save the above script to a file locally , edit as needed and execute it
+# curl https://cli-assets.heroku.com/install.sh | sh
+
 This script requires superuser access.
 You will be prompted for your password by sudo.
 Installing CLI from https://cli-assets.heroku.com/heroku-linux-arm.tar.xz
