@@ -1,0 +1,21 @@
+sh striphtmlcodefromfilelinux.sh oindex.html |grep 2019-11-21
+sh striphtmlcodefromfilelinux.sh oindex.html |grep 2019-11-
+grep 2019-11- oindex.html
+sh striphtmlcodefromfilelinux.sh aindex.html |grep 2019-11-
+grep 2019-11- oindex.html
+grep 2019-11- aindex.html
+grep 2019-11- pindex.html
+grep 2019-11- pindex.html |sh striphtmlcodefromfilelinux.sh
+grep 2019-11- pindex.html
+grep 2019-11- pindex.html |sh striphtmlcodefromfilelinux.sh
+grep 2019-11- aindex.html |sh striphtmlcodefromfilelinux.sh
+grep 2019-11- oindex.html |sh striphtmlcodefromfilelinux.sh
+grep 2019-10- oindex.html |sh striphtmlcodefromfilelinux.sh
+grep 2019-09- oindex.html |sh striphtmlcodefromfilelinux.sh
+grep 2019-09- aindex.html |sh striphtmlcodefromfilelinux.sh
+grep 2019-10- aindex.html |sh striphtmlcodefromfilelinux.sh
+grep 2019-11- aindex.html |sh striphtmlcodefromfilelinux.sh
+grep 2019-11- pindex.html |sh striphtmlcodefromfilelinux.sh
+grep 2019-10 pindex.html
+grep 2019-10 aindex.html
+grep 2019-09 aindex.html
