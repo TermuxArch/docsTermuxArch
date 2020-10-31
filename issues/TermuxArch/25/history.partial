@@ -1,4 +1,4 @@
-This file is a partial command history of the work being done in this https://github.com/TermuxArch/TermuxArch/issues/25 issue.
+This file is a partial command history of the work being done in this https://github.com/TermuxArch/TermuxArch/issues/25 issue and https://bbs.archlinux32.org/viewtopic.php?id=2982.
 wget https://archive.archlinux32.org/packages/l/lzo
 sh striphtmlcodefromfilelinux.sh oindex.html |grep 2019-11-21
 sh striphtmlcodefromfilelinux.sh oindex.html |grep 2019-11-
