@@ -1,0 +1,227 @@
+$ ./setupTermuxArch                               /data/data/com.termux/files/usr/bin/editor
+                                                   🕛 > 🕛 ＴｅｒｍｕｘＡｒｃｈ 2.0.724 will attempt to install Linux in /data/data/com.termux/files/home/arch.  Arch Linux in Termux PRoot will be available upon successful completion.  To run this BASH script again, use '!!'.  Ensure background data is not restricted.  Check the wireless connection if you do not see one o'clock 🕐 below.  Checking prerequisites...
+
+Found download tool 'curl': Continuing...
+                                                  Using curl to manage downloads.                   
+ 🕛 > 🕧 Prerequisites: OK  Downloading TermuxArch...                                                                                                                                                   [1/2]: https://raw.githubusercontent.com/TermuxArch/TermuxArch/master/setupTermuxArch.sha512 --> setupTermuxArch.sha512                               --_curl_--https://raw.githubusercontent.com/TermuxArch/TermuxArch/master/setupTermuxArch.sha512
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:-  0     0    0     0    0     0      0      0 --:-100   153  100   153    0     0    255      0 --:--:-- --:--:-- --:--:--   255
+
+[2/2]: https://raw.githubusercontent.com/TermuxArch/TermuxArch/master/setupTermuxArch.tar.gz --> setupTermuxArch.tar.gz
+--_curl_--https://raw.githubusercontent.com/TermuxArch/TermuxArch/master/setupTermuxArch.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:-100 66336  100 66336    0     0   145k      0 --:--:-- --:--:-- --:--:--  145k
+
+ 🕛 > 🕐 TermuxArch download: OK
+
+
+ 🕛 > 🕜 TermuxArch 2.0.724 integrity: OK
+File 'setupTermuxArch' UPDATED: run 'bash setupTermuxArch' again if this automatic update was unsuccessful.
+RESTARTED 'setupTermuxArch': CONTINUING...
+
+/data/data/com.termux/files/usr/bin/editor
+
+ 🕛 > 🕛 ＴｅｒｍｕｘＡｒｃｈ 2.0.724 will attempt to install Linux in /data/data/com.termux/files/home/arch.  Arch Linux in Termux PRoot will be available upon successful completion.  To run this BASH script again, use '!!'.  Ensure background data is not restricted.  Check the wireless connection if you do not see one o'clock 🕐 below.  Checking prerequisites...
+
+Found download tool 'curl': Continuing...
+
+Using curl to manage downloads.
+
+ 🕛 > 🕧 Prerequisites: OK  Downloading TermuxArch...
+
+
+[1/2]: https://raw.githubusercontent.com/TermuxArch/TermuxArch/master/setupTermuxArch.sha512 --> setupTermuxArch.sha512
+--_curl_--https://raw.githubusercontent.com/TermuxArch/TermuxArch/master/setupTermuxArch.sha512
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:-100   153  100   153    0     0    516      0 --:--:-- --:--:-- --:--:--   516
+
+[2/2]: https://raw.githubusercontent.com/TermuxArch/TermuxArch/master/setupTermuxArch.tar.gz --> setupTermuxArch.tar.gz
+--_curl_--https://raw.githubusercontent.com/TermuxArch/TermuxArch/master/setupTermuxArch.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:-100 66336  100 66336    0     0   255k      0 --:--:-- --:--:-- --:--:--  255k
+
+ 🕛 > 🕐 TermuxArch download: OK
+
+
+ 🕛 > 🕜 TermuxArch 2.0.724 integrity: OK
+Creating directory '/etc'.
+Creating directory '/home'.
+Creating directory '/root/bin'.
+Creating directory '/usr/bin'.
+Creating directory '/usr/local/bin'.
+Creating directory '/var/backups/arch/etc'.
+Creating directory '/var/backups/arch/root'.
+Creating directory '/var/binds'.
+Setting locales to: Language >> en_US << Region: Please wait a moment.
+line '(setq visible-bell 1)' not found in /arch/root/.emacs file : adding line '(setq visible-bell 1)' to /arch/root/.emacs file
+line 'set belloff=all' not found in /arch/root/.vimrc file : adding line 'set belloff=all' to /arch/root/.vimrc file
+Adjusting ownership and permissions...
+ 🕛 > 🕦 File startarch copied to /data/data/com.termux/files/home/bin.
+
+
+ 🕛 > 🕝 Detected Android arm64-v8a 10 arm64-v8a operating system.
+
+ 🕛 > 🕒 Activating termux-wake-lock: DONE
+
+ 🕛 > 🕞 Contacting worldwide mirror https://os.archlinuxarm.org: DONE
+
+ 🕛 > 🕓 Downloading the checksum file and ArchLinuxARM-aarch64-latest.tar.gz from the geographically local mirror http://tw.mirror.archlinuxarm.org/.  If contact with the local mirror is not successful, run bash setupTermuxArch again.  Should the worldwide mirror not provide another geographically nearby server after a couple of attempts, use bash setupTermuxArch manual after locating a local mirror from the Internet; The command bash setupTermuxArch help has information about additional options.  Download of ArchLinuxARM-aarch64-latest.tar.gz pending Internet connection...
+
+
+[1/2]: http://tw.mirror.archlinuxarm.org//os/ArchLinuxARM-aarch64-latest.tar.gz.md5 --> ArchLinuxARM-aarch64-latest.tar.gz.md5
+--_curl_--http://tw.mirror.archlinuxarm.org//os/ArchLinuxARM-aarch64-latest.tar.gz.md5
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:-  0     0    0     0    0     0      0      0 --:-  0     0    0     0    0     0      0      0 --:-  0     0    0     0    0     0      0      0 --:-  0     0    0     0    0     0      0      0 --:-100    69  100    69    0     0     21      0  0:00:03  0:00:03 --:--:--    21
+
+[2/2]: http://tw.mirror.archlinuxarm.org//os/ArchLinuxARM-aarch64-latest.tar.gz --> ArchLinuxARM-aarch64-latest.tar.gz
+--_curl_--http://tw.mirror.archlinuxarm.org//os/ArchLinuxARM-aarch64-latest.tar.gz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:-  0  549M    0 2300k    0     0  2381k      0  0:0  1  549M    1 7310k    0     0  3718k      0  0:0  2  549M    2 11.4M    0     0  3529k      0  0:0  2  549M    2 13.7M    0     0  3528k      0  0:0  2  549M    2 16.4M    0     0  3394k      0  0:0  3  549M    3 19.8M    0     0  3413k      0  0:0  4  549M    4 23.5M    0     0  3436k      0  0:0  4  549M    4 26.2M    0     0  3364k      0  0:0  5  549M    5 29.3M    0     0  3349k      0  0:0  5  549M    5 32.2M    0     0  3309k      0  0:0  6  549M    6 34.3M    0     0  3205k      0  0:0  6  549M    6 36.8M    0     0  3153k      0  0:0  7  549M    7 39.6M    0     0  3132k      0  0:0  7  549M    7 42.9M    0     0  3147k      0  0:0  8  549M    8 45.9M    0     0  3143k      0  0:0  8  549M    8 48.9M    0     0  3133k      0  0:0  9  549M    9 51.8M    0     0  3129k      0  0:0  9  549M    9 54.9M    0     0  3123k      0  0:0 10  549M   10 57.4M    0     0  3099k      0  0:0 10  549M   10 60.3M    0     0  3096k      0  0:0 11  549M   11 62.9M    0     0  3050k      0  0:0 11  549M   11 65.2M    0     0  3024k      0  0:0 12  549M   12 68.8M    0     0  3070k      0  0:0 13  549M   13 72.4M    0     0  3094k      0  0:0 13  549M   13 75.3M    0     0  3087k      0  0:0 14  549M   14 78.9M    0     0  3113k      0  0:0 14  549M   14 81.9M    0     0  3109k      0  0:0 15  549M   15 84.1M    0     0  3081k      0  0:0 15  549M   15 86.2M    0     0  3050k      0  0:0 16  549M   16 88.5M    0     0  3022k      0  0:0 16  549M   16 90.6M    0     0  2998k      0  0:0 16  549M   16 92.8M    0     0  2974k      0  0:0 17  549M   17 95.2M    0     0  2959k      0  0:0 17  549M   17 97.7M    0     0  2946k      0  0:0 18  549M   18  100M    0     0  2934k      0  0:0 18  549M   18  102M    0     0  2929k      0  0:0 19  549M   19  105M    0     0  2927k      0  0:0 19  549M   19  107M    0     0  2908k      0  0:0 20  549M   20  110M    0     0  2899k      0  0:0 20  549M   20  113M    0     0  2902k      0  0:0 21  549M   21  116M    0     0  2914k      0  0:0 21  549M   21  118M    0     0  2890k      0  0:0 21  549M   21  119M    0     0  2846k      0  0:0 21  549M   21  120M    0     0  2801k      0  0:0 22  549M   22  120M    0     0  2744k      0  0:0 22  549M   22  122M    0     0  2671k      0  0:0 22  549M   22  122M    0     0  2615k      0  0:0 22  549M   22  123M    0     0  2581k      0  0:0 23  549M   23  127M    0     0  2618k      0  0:0 24  549M   24  132M    0     0  2670k      0  0:0 24  549M   24  136M    0     0  2683k      0  0:0 25  549M   25  139M    0     0  2693k      0  0:0 25  549M   25  141M    0     0  2684k      0  0:0 26  549M   26  143M    0     0  2676k      0  0:0 26  549M   26  146M    0     0  2671k      0  0:0 27  549M   27  148M    0     0  2668k      0  0:0 27  549M   27  150M    0     0  2663k      0  0:0 27  549M   27  153M    0     0  2660k      0  0:0 28  549M   28  155M    0     0  2659k      0  0:0 28  549M   28  157M    0     0  2646k      0  0:0 29  549M   29  159M    0     0  2631k      0  0:0 29  549M   29  161M    0     0  2618k      0  0:0 29  549M   29  163M    0     0  2615k      0  0:0 30  549M   30  166M    0     0  2630k      0  0:0 31  549M   31  170M    0     0  2653k      0  0:0 32  549M   32  176M    0     0  2691k      0  0:0 32  549M   32  179M    0     0  2700k      0  0:0 33  549M   33  182M    0     0  2704k      0  0:0 33  549M   33  184M    0     0  2705k      0  0:0 34  549M   34  187M    0     0  2706k      0  0:0 34  549M   34  191M    0     0  2718k      0  0:0 35  549M   35  193M    0     0  2718k      0  0:0 35  549M   35  196M    0     0  2714k      0  0:0 36  549M   36  198M    0     0  2708k      0  0:0 36  549M   36  200M    0     0  2708k      0  0:0 37  549M   37  203M    0     0  2709k      0  0:0 37  549M   37  206M    0     0  2708k      0  0:0 38  549M   38  208M    0     0  2707k      0  0:0 38  549M   38  211M    0     0  2704k      0  0:0 38  549M   38  213M    0     0  2701k      0  0:0 39  549M   39  216M    0     0  2705k      0  0:0 39  549M   39  219M    0     0  2709k      0  0:0 40  549M   40  222M    0     0  2713k      0  0:0 41  549M   41  226M    0     0  2733k      0  0:0 41  549M   41  230M    0     0  2745k      0  0:0 42  549M   42  233M    0     0  2751k      0  0:0 43  549M   43  236M    0     0  2756k      0  0:0 43  549M   43  239M    0     0  2756k      0  0:0 44  549M   44  242M    0     0  2754k      0  0:0 44  549M   44  244M    0     0  2745k      0  0:0 44  549M   44  245M    0     0  2733k      0  0:0 44  549M   44  246M    0     0  2717k      0  0:0 45  549M   45  247M    0     0  2702k      0  0:0 45  549M   45  249M    0     0  2687k      0  0:0 45  549M   45  250M    0     0  2673k      0  0:0 45  549M   45  251M    0     0  2660k      0  0:0 46  549M   46  253M    0     0  2646k      0  0:0 46  549M   46  254M    0     0  2635k      0  0:0 46  549M   46  256M    0     0  2627k      0  0:0 47  549M   47  258M    0     0  2622k      0  0:0 47  549M   47  261M    0     0  2622k      0  0:0 48  549M   48  264M    0     0  2626k      0  0:0 48  549M   48  267M    0     0  2637k      0  0:0 49  549M   49  271M    0     0  2652k      0  0:0 50  549M   50  275M    0     0  2662k      0  0:0 50  549M   50  278M    0     0  2668k      0  0:0 51  549M   51  281M    0     0  2673k      0  0:0 51  549M   51  284M    0     0  2673k      0  0:0 52  549M   52  287M    0     0  2674k      0  0:0 52  549M   52  290M    0     0  2676k      0  0:0 53  549M   53  293M    0     0  2679k      0  0:0 53  549M   53  296M    0     0  2683k      0  0:0 54  549M   54  298M    0     0  2683k      0  0:0 54  549M   54  300M    0     0  2679k      0  0:0 55  549M   55  303M    0     0  2681k      0  0:0 55  549M   55  305M    0     0  2674k      0  0:0 56  549M   56  308M    0     0  2673k      0  0:0 56  549M   56  310M    0     0  2671k      0  0:0 57  549M   57  313M    0     0  2672k      0  0:0 57  549M   57  315M    0     0  2672k      0  0:0 58  549M   58  318M    0     0  2674k      0  0:0 58  549M   58  321M    0     0  2675k      0  0:0 59  549M   59  324M    0     0  2678k      0  0:0 59  549M   59  327M    0     0  2684k      0  0:0 60  549M   60  329M    0     0  2678k      0  0:0 60  549M   60  330M    0     0  2665k      0  0:0 60  549M   60  331M    0     0  2654k      0  0:0 60  549M   60  332M    0     0  2638k      0  0:0 60  549M   60  332M    0     0  2620k      0  0:0 61  549M   61  335M    0     0  2621k      0  0:0 61  549M   61  339M    0     0  2636k      0  0:0 62  549M   62  342M    0     0  2634k      0  0:0 63  549M   63  347M    0     0  2657k      0  0:0 63  549M   63  350M    0     0  2656k      0  0:0 64  549M   64  353M    0     0  2659k      0  0:0 64  549M   64  354M    0     0  2651k      0  0:0 65  549M   65  358M    0     0  2662k      0  0:0 65  549M   65  362M    0     0  2669k      0  0:0 66  549M   66  365M    0     0  2671k      0  0:0 66  549M   66  367M    0     0  2671k      0  0:0 67  549M   67  370M    0     0  2669k      0  0:0 67  549M   67  372M    0     0  2668k      0  0:0 68  549M   68  375M    0     0  2666k      0  0:0 68  549M   68  377M    0     0  2666k      0  0:0 69  549M   69  379M    0     0  2665k      0  0:0 69  549M   69  382M    0     0  2664k      0  0:0 70  549M   70  384M    0     0  2663k      0  0:0 70  549M   70  387M    0     0  2662k      0  0:0 71  549M   71  390M    0     0  2663k      0  0:0 71  549M   71  393M    0     0  2669k      0  0:0 72  549M   72  397M    0     0  2679k      0  0:0 73  549M   73  401M    0     0  2690k      0  0:0 73  549M   73  406M    0     0  2700k      0  0:0 74  549M   74  408M    0     0  2701k      0  0:0 75  549M   75  412M    0     0  2705k      0  0:0 75  549M   75  414M    0     0  2702k      0  0:0 75  549M   75  416M    0     0  2699k      0  0:0 76  549M   76  419M    0     0  2700k      0  0:0 76  549M   76  421M    0     0  2699k      0  0:0 77  549M   77  424M    0     0  2700k      0  0:0 77  549M   77  427M    0     0  2701k      0  0:0 78  549M   78  429M    0     0  2700k      0  0:0 78  549M   78  432M    0     0  2700k      0  0:0 79  549M   79  435M    0     0  2703k      0  0:0 79  549M   79  438M    0     0  2706k      0  0:0 80  549M   80  442M    0     0  2713k      0  0:0 81  549M   81  445M    0     0  2718k      0  0:0 81  549M   81  449M    0     0  2726k      0  0:0 82  549M   82  453M    0     0  2730k      0  0:0 83  549M   83  456M    0     0  2732k      0  0:0 83  549M   83  459M    0     0  2737k      0  0:0 84  549M   84  462M    0     0  2736k      0  0:0 84  549M   84  464M    0     0  2732k      0  0:0 84  549M   84  466M    0     0  2727k      0  0:0 85  549M   85  468M    0     0  2723k      0  0:0 85  549M   85  470M    0     0  2721k      0  0:0 86  549M   86  472M    0     0  2719k      0  0:0 86  549M   86  475M    0     0  2718k      0  0:0 86  549M   86  477M    0     0  2717k      0  0:0 87  549M   87  479M    0     0  2712k      0  0:0 87  549M   87  481M    0     0  2707k      0  0:0 88  549M   88  483M    0     0  2705k      0  0:0 88  549M   88  484M    0     0  2699k      0  0:0 88  549M   88  485M    0     0  2690k      0  0:0 88  549M   88  487M    0     0  2685k      0  0:0 89  549M   89  490M    0     0  2683k      0  0:0 89  549M   89  493M    0     0  2688k      0  0:0 90  549M   90  499M    0     0  2704k      0  0:0 91  549M   91  502M    0     0  2707k      0  0:0 92  549M   92  505M    0     0  2711k      0  0:0 92  549M   92  508M    0     0  2712k      0  0:0 93  549M   93  511M    0     0  2712k      0  0:0 93  549M   93  514M    0     0  2713k      0  0:0 94  549M   94  516M    0     0  2714k      0  0:0 94  549M   94  519M    0     0  2714k      0  0:0 95  549M   95  522M    0     0  2717k      0  0:0 95  549M   95  525M    0     0  2720k      0  0:0 96  549M   96  528M    0     0  2720k      0  0:0 96  549M   96  531M    0     0  2721k      0  0:0 97  549M   97  534M    0     0  2724k      0  0:0 97  549M   97  537M    0     0  2724k      0  0:0 98  549M   98  540M    0     0  2726k      0  0:0 99  549M   99  544M    0     0  2733k      0  0:0 99  549M   99  547M    0     0  2736k      0  0:0100  549M  100  549M    0     0  2733k      0  0:03:25  0:03:25 --:--:-- 3127k
+
+ 🕛 > 🕠 Checking download integrity with md5sum.  This may take a little while 🕚
+
+ 🕛 > 🕕 System image file download integrity: OK
+
+ 🕛 > 🕡 Unpacking ArchLinuxARM-aarch64-latest.tar.gz into /data/data/com.termux/files/home/arch.  The option to create Arch Linux system users is available through addauser.  Arch Linux user login from Termux with startarch is now implemented.  See Ability for Scripts to Launch Commands for Arch Linux in Termux PRoot on Device https://github.com/sdrausty/TermuxArch/issues/54 for more information about these brand new options.
+
+While waiting, you can use df, du -hs, htop, ps, top and watch in a new Termux session to watch the unpacking while this session completes.  Use info query and man query to learn more about your Linux system in the palm of your hand.  See The Linux Documentation Project http://tldp.org to learn more about Linux and CLI (command line interface) commands.
+
+In order to scroll this screen down to be able to read the output, long tap until the popup menu shows.  Let go, then scroll down without loosing touch with the screen and without touching the popup menu.  Unpacking  will take a long time;  Please be patient  🕚
+ 🕛 > 🕘 Cleaning up installation files: DONE
+
+ 🕛 > 🕤 Arch Linux in Termux PRoot is installed.  Configuring and updating Arch Linux 📲  # Server = http://tw.mirror.archlinuxarm.org/$arch/$repo
+Found server tw.mirror.archlinuxarm.org in /etc/pacman.d/mirrorlist; Uncommenting tw.mirror.archlinuxarm.org.
+
+:: Processing system for Android arm64-v8a 10 arm64-v8a, and removing redundant packages for Termux PRoot installation if necessary...
+checking dependencies...
+:: base optionally requires linux: bare metal support
+
+Packages (2) linux-aarch64-5.8.0-1
+             linux-firmware-20200721.2b823fc-1
+
+Total Removed Size:  709.23 MiB
+
+:: Do you want to remove these packages? [Y/n]
+:: Processing package changes...
+(1/2) removing linux-aarch64
+(2/2) removing linux-firmware
+:: Running post-transaction hooks...
+(1/2) Arming ConditionNeedsUpdate...
+(2/2) Updating module dependencies...
+
+==> Running TermuxArch keys archlinux-keyring archlinuxarm-keyring ca-certificates-utils 2.0.724...
+
+(1/2) When gpg: Generating pacman keyring master key appears on the screen, the installation process can be accelerated.  The system desires a lot of entropy at this part of the install procedure.  To generate as much entropy as possible quickly, watch and listen to a file on your device.
+
+The program pacman-key will want as much entropy as possible when generating keys.  Entropy is also created through tapping, sliding, one, two and more fingers tapping with short and long taps.  When gpg: Generating pacman keyring master key appears on the screen, use any of these simple methods to accelerate the installation process if it is stalled.  Put even simpler, just do something on device.  Browsing files will create entropy on device.  Slowly swiveling the device in space and time will accelerate the installation process.  This method alone might not generate enough entropy (a measure of randomness in a closed system) for the process to complete quickly.  You can use bash ~/arch/bin/we in a new Termux session to watch entropy on device.
+
+==> Running pacman-key --init...
+gpg: /etc/pacman.d/gnupg/trustdb.gpg: trustdb created
+gpg: no ultimately trusted keys found
+gpg: starting migration from earlier GnuPG versions
+gpg: porting secret keys from '/etc/pacman.d/gnupg/secring.gpg' to gpg-agent
+gpg: migration succeeded
+gpg: Generating pacman keyring master key...
+gpg: key 09A13C6A058FB2F8 marked as ultimately trusted
+gpg: directory '/etc/pacman.d/gnupg/openpgp-revocs.d' created
+gpg: revocation certificate stored as '/etc/pacman.d/gnupg/openpgp-revocs.d/BA59090534AE9D0589B66CEC09A13C6A058FB2F8.rev'
+gpg: Done
+==> Updating trust database...
+gpg: marginals needed: 3  completes needed: 1  trust model: pgp
+gpg: depth: 0  valid:   1  signed:   0  trust: 0-, 0q, 0n, 0m, 0f, 1u
+==> Appending keys from archlinuxarm.gpg...
+==> Locally signing trusted keys in keyring...
+  -> Locally signing key 69DD6C8FD314223E14362848BF7EEF7A9C6B5765...
+  -> Locally signing key 02922214DE8981D14DC2ACABBC704E86B823CD25...
+  -> Locally signing key 9D22B7BB678DC056B1F7723CB55C5315DCD9EE1A...
+==> Importing owner trust values...
+gpg: setting ownertrust to 4
+gpg: inserting ownertrust of 4
+gpg: setting ownertrust to 4
+==> Updating trust database...
+gpg: marginals needed: 3  completes needed: 1  trust model: pgp
+gpg: depth: 0  valid:   1  signed:   3  trust: 0-, 0q, 0n, 0m, 0f, 1u
+gpg: depth: 1  valid:   3  signed:   1  trust: 0-, 0q, 0n, 3m, 0f, 0u
+gpg: depth: 2  valid:   1  signed:   0  trust: 1-, 0q, 0n, 0m, 0f, 0u
+
+==> Running pacman -S archlinux-keyring archlinuxarm-keyring ca-certificates-utils --noconfirm --color=always...
+warning: archlinuxarm-keyring-20140119-1 is up to date -- reinstalling
+warning: ca-certificates-utils-20181109-4 is up to date -- reinstalling
+resolving dependencies...
+looking for conflicting packages...
+
+Packages (3) archlinux-keyring-20200622-1
+             archlinuxarm-keyring-20140119-1
+             ca-certificates-utils-20181109-4
+
+Total Download Size:   0.90 MiB
+Total Installed Size:  1.28 MiB
+Net Upgrade Size:      1.24 MiB
+
+:: Proceed with installation? [Y/n]
+:: Retrieving packages...
+error: failed retrieving file 'archlinux-keyring-20200622-1-any.pkg.tar.xz' from tw.mirror.archlinuxarm.org : The requested URL returned error: 404
+warning: failed to retrieve some files
+ archlinuxarm-key...    12.2 KiB  0.00   B/s 00:00
+ ca-certificates-...     7.9 KiB  0.00   B/s 00:00
+error: failed to commit transaction (unexpected error)
+Errors occurred, no packages were upgraded.
+/root/bin/keys: line 104: sudo: command not found
+
+ TermuxArch WARNING:  Generated script signal 127 near or at line number 104 by '127'!
+
+
+TermuxArch keys archlinux-keyring archlinuxarm-keyring ca-certificates-utils 2.0.724: DONE 📱 🏁
+
+
+ TermuxArch WARNING:  Generated script signal 201 near or at line number 59 by '/root/bin/keys'!
+
+finishsetup.bash  2.0.724 [Exit Signal 201]: DONE  🏁
+If error ' env ... not found ' is found, ensure that all the software is up to date.  After updating, please reference these links in order to find a resolution if updating Termux app and Termux packages was unsuccessful:
+
+  * https://github.com/termux/proot/issues?q="env"+"not+found"
+
+  * https://github.com/termux/termux-packages/issues?q="not+found"+"proot"
+
+
+ 🕛 > 🕙 Releasing termux-wake-lock: DONE
+
+ 🕛 > 🕥 You can use startarch to launch Arch Linux in Termux PRoot.  Alternatively, you can run ~/arch/startarch in a BASH shell to start Arch Linux in Termux PRoot in future sessions.  See startarch help for usage information.
+
+ 🕛 = 🕛 Information about "Starting Arch Linux from Termux?" at https://github.com/sdrausty/TermuxArch/issues/25.  You can use tour to run a very short tour to get to know the new Arch Linux in Termux PRoot environment you just set up a little bit better.  If there was more than one error during the update procedure and you would like to refresh the installation, use setupTermuxArch refresh.  This will update and recreate the configuration provided.  The TermuxArch command keys helps install and generate Arch Linux keyring keys.
+
+Arch Linux in Termux PRoot is installed in /data/data/com.termux/files/home/arch.  This project is in active development.  Contributions to this project are welcome; See https://sdrausty.github.io/TermuxArch/CONTRIBUTORS for information.  The documentation repository for TermuxArch https://sdrausty.github.io/TermuxArch/docs/ is a TermuxArch module that is located at https://github.com/sdrausty/docsTermuxArch.  Pull requests and contributions through the issues pages are open to improve the ux (user experience) and this Termux PRoot installation script.
+
+Use ~/arch/startarch and startarch in a BASH shell to launch Arch Linux in Termux PRoot for future sessions.  If you are new to *nix, http://tldp.org has *nix documentation.
+
+The website https://archlinuxarm.org/forum/ has discussion forums available for the Arch Linux arm project regarding the Arch Linux arm64-v8a computer architecture.
+
+bash: warning: setlocale: LC_COLLATE: cannot change locale (en_US.UTF-8): No such file or directory
+bash: warning: setlocale: LC_CTYPE: cannot change locale (en_US.UTF-8): No such file or directory
+bash: warning: setlocale: LC_MESSAGES: cannot change locale (en_US.UTF-8): No such file or directory
+bash: warning: setlocale: LC_NUMERIC: cannot change locale (en_US.UTF-8): No such file or directory
+bash: warning: setlocale: LC_TIME: cannot change locale (en_US.UTF-8): No such file or directory
+
+Welcome to Arch Linux in Termux!
+Install a package: pacman -S package
+More  information: pacman -[D|F|Q|R|S|T|U]h
+Search   packages: pacman -Ss query
+Upgrade  packages: pacman -Syu
+
+Chat:  https://wiki.termux.com/wiki/Community
+Forum: https://archlinuxarm.org/forum
+Help: info query and man query
+IRC: wiki.archlinux.org/index.php/IRC_channel
+
+bash: warning: setlocale: LC_COLLATE: cannot change locale (en_US.UTF-8)
+bash: warning: setlocale: LC_CTYPE: cannot change locale (en_US.UTF-8)
+bash: warning: setlocale: LC_MESSAGES: cannot change locale (en_US.UTF-8)
+bash: warning: setlocale: LC_NUMERIC: cannot change locale (en_US.UTF-8)
+bash: warning: setlocale: LC_TIME: cannot change locale (en_US.UTF-8)
+[root13:43~]$
