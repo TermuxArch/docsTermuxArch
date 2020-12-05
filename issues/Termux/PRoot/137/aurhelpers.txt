@@ -1,0 +1,1080 @@
+[janusz@localhost root]$ makeaurhelpers
+Please contribute to developing the 'makeaurhelpers' command at https://github.com/TermuxArch/TermuxArch/issues and https://github.com/TermuxArch/TermuxArch/pulls in order to have a greater working assortment of AUR helpers like 'yay' that builds Arch Linux packages in just a few taps.  More information about Arch Linux AUR helpers is at this https://wiki.archlinux.org/index.php/AUR_helpers link;  Waiting six seconds...
+
+Command 'makeaurhelpers' continuing...
+
+==> Running TermuxArch command pci automake base base-devel binutils fakeroot gcc libtool po4a v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 80 by '$SUDOCONF'!
+
+TermuxArch pci automake base base-devel binutils fakeroot gcc libtool po4a 2.0.938: DONE đź“± đźŹ
+
+==> Running TermuxArch command pci automake base base-devel binutils fakeroot gcc libtool po4a v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 80 by '$SUDOCONF'!
+
+TermuxArch pci automake base base-devel binutils fakeroot gcc libtool po4a 2.0.938: DONE đź“± đźŹ
+
+
+ERROR: Please correct the error(s) and/or warning(s) by running command 'pci automake base base-devel fakeroot gcc libtool po4a' as root user.  You can do this without closing this session by running command "startarch command 'pci automake base base-devel fakeroot gcc libtool po4a'"in a new Termux session. Then you can return to this session and run 'makeaurhelpers ' again.
+
+Installing packages: '    pm2ml python3-aur python3-xcgf python3-xcpf      pbget pm2ml powerpill python-xdg python3-aur python3-colorsysplus python3-memoizedb python3-xcgf python3-xcpf            '...
+Attempting to install 'pm2ml'...
+
+==> Running TermuxArch command pc pm2ml v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 81 by '$SUDOCONF'!
+
+TermuxArch pc pm2ml 2.0.938: DONE đź“± đźŹ
+
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Attempting to install 'python3-aur'...
+
+==> Running TermuxArch command pc python3-aur v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 81 by '$SUDOCONF'!
+
+TermuxArch pc python3-aur 2.0.938: DONE đź“± đźŹ
+
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Attempting to install 'python3-xcgf'...
+
+==> Running TermuxArch command pc python3-xcgf v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 81 by '$SUDOCONF'!
+
+TermuxArch pc python3-xcgf 2.0.938: DONE đź“± đźŹ
+
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Attempting to install 'python3-xcpf'...
+
+==> Running TermuxArch command pc python3-xcpf v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 81 by '$SUDOCONF'!
+
+TermuxArch pc python3-xcpf 2.0.938: DONE đź“± đźŹ
+
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Attempting to install 'pbget'...
+
+==> Running TermuxArch command pc pbget v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 81 by '$SUDOCONF'!
+
+TermuxArch pc pbget 2.0.938: DONE đź“± đźŹ
+
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Attempting to install 'pm2ml'...
+
+==> Running TermuxArch command pc pm2ml v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 81 by '$SUDOCONF'!
+
+TermuxArch pc pm2ml 2.0.938: DONE đź“± đźŹ
+
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Attempting to install 'powerpill'...
+
+==> Running TermuxArch command pc powerpill v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 81 by '$SUDOCONF'!
+
+TermuxArch pc powerpill 2.0.938: DONE đź“± đźŹ
+
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Attempting to install 'python-xdg'...
+
+==> Running TermuxArch command pc python-xdg v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 81 by '$SUDOCONF'!
+
+TermuxArch pc python-xdg 2.0.938: DONE đź“± đźŹ
+
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Attempting to install 'python3-aur'...
+
+==> Running TermuxArch command pc python3-aur v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 81 by '$SUDOCONF'!
+
+TermuxArch pc python3-aur 2.0.938: DONE đź“± đźŹ
+
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Attempting to install 'python3-colorsysplus'...
+
+==> Running TermuxArch command pc python3-colorsysplus v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 81 by '$SUDOCONF'!
+
+TermuxArch pc python3-colorsysplus 2.0.938: DONE đź“± đźŹ
+
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Attempting to install 'python3-memoizedb'...
+
+==> Running TermuxArch command pc python3-memoizedb v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 81 by '$SUDOCONF'!
+
+TermuxArch pc python3-memoizedb 2.0.938: DONE đź“± đźŹ
+
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Attempting to install 'python3-xcgf'...
+
+==> Running TermuxArch command pc python3-xcgf v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 81 by '$SUDOCONF'!
+
+TermuxArch pc python3-xcgf 2.0.938: DONE đź“± đźŹ
+
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Attempting to install 'python3-xcpf'...
+
+==> Running TermuxArch command pc python3-xcpf v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 81 by '$SUDOCONF'!
+
+TermuxArch pc python3-xcpf 2.0.938: DONE đź“± đźŹ
+
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Installing packages: 'pkgbuilder repoctl paru-bin yay-bin pbget puyo rua paru trizen aurutils bauerbill pacaur auracle-git pakku yaah yayim pikaur-git pikaur yay-git repofish yay aura '...
+Attempting to install 'pkgbuilder'...
+
+==> Running TermuxArch command pc pkgbuilder v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 81 by '$SUDOCONF'!
+
+TermuxArch pc pkgbuilder 2.0.938: DONE đź“± đźŹ
+
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Attempting to install 'repoctl'...
+
+==> Running TermuxArch command pc repoctl v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 81 by '$SUDOCONF'!
+
+TermuxArch pc repoctl 2.0.938: DONE đź“± đźŹ
+
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Attempting to install 'paru-bin'...
+
+==> Running TermuxArch command pc paru-bin v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 81 by '$SUDOCONF'!
+
+TermuxArch pc paru-bin 2.0.938: DONE đź“± đźŹ
+
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Attempting to install 'yay-bin'...
+
+==> Running TermuxArch command pc yay-bin v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 81 by '$SUDOCONF'!
+
+TermuxArch pc yay-bin 2.0.938: DONE đź“± đźŹ
+
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Attempting to install 'pbget'...
+
+==> Running TermuxArch command pc pbget v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 81 by '$SUDOCONF'!
+
+TermuxArch pc pbget 2.0.938: DONE đź“± đźŹ
+
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Attempting to install 'puyo'...
+
+==> Running TermuxArch command pc puyo v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 81 by '$SUDOCONF'!
+
+TermuxArch pc puyo 2.0.938: DONE đź“± đźŹ
+
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Attempting to install 'rua'...
+
+==> Running TermuxArch command pc rua v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 81 by '$SUDOCONF'!
+
+TermuxArch pc rua 2.0.938: DONE đź“± đźŹ
+
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Attempting to install 'paru'...
+
+==> Running TermuxArch command pc paru v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 81 by '$SUDOCONF'!
+
+TermuxArch pc paru 2.0.938: DONE đź“± đźŹ
+
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Attempting to install 'trizen'...
+
+==> Running TermuxArch command pc trizen v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 81 by '$SUDOCONF'!
+
+TermuxArch pc trizen 2.0.938: DONE đź“± đźŹ
+
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Attempting to install 'aurutils'...
+
+==> Running TermuxArch command pc aurutils v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 81 by '$SUDOCONF'!
+
+TermuxArch pc aurutils 2.0.938: DONE đź“± đźŹ
+
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Attempting to install 'bauerbill'...
+
+==> Running TermuxArch command pc bauerbill v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 81 by '$SUDOCONF'!
+
+TermuxArch pc bauerbill 2.0.938: DONE đź“± đźŹ
+
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Attempting to install 'pacaur'...
+
+==> Running TermuxArch command pc pacaur v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 81 by '$SUDOCONF'!
+
+TermuxArch pc pacaur 2.0.938: DONE đź“± đźŹ
+
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Attempting to install 'auracle-git'...
+
+==> Running TermuxArch command pc auracle-git v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 81 by '$SUDOCONF'!
+
+TermuxArch pc auracle-git 2.0.938: DONE đź“± đźŹ
+
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Attempting to install 'pakku'...
+
+==> Running TermuxArch command pc pakku v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 81 by '$SUDOCONF'!
+
+TermuxArch pc pakku 2.0.938: DONE đź“± đźŹ
+
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Attempting to install 'yaah'...
+
+==> Running TermuxArch command pc yaah v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 81 by '$SUDOCONF'!
+
+TermuxArch pc yaah 2.0.938: DONE đź“± đźŹ
+
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Attempting to install 'yayim'...
+
+==> Running TermuxArch command pc yayim v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 81 by '$SUDOCONF'!
+
+TermuxArch pc yayim 2.0.938: DONE đź“± đźŹ
+
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Attempting to install 'pikaur-git'...
+
+==> Running TermuxArch command pc pikaur-git v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 81 by '$SUDOCONF'!
+
+TermuxArch pc pikaur-git 2.0.938: DONE đź“± đźŹ
+
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Attempting to install 'pikaur'...
+
+==> Running TermuxArch command pc pikaur v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 81 by '$SUDOCONF'!
+
+TermuxArch pc pikaur 2.0.938: DONE đź“± đźŹ
+
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Attempting to install 'yay-git'...
+
+==> Running TermuxArch command pc yay-git v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 81 by '$SUDOCONF'!
+
+TermuxArch pc yay-git 2.0.938: DONE đź“± đźŹ
+
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Attempting to install 'repofish'...
+
+==> Running TermuxArch command pc repofish v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 81 by '$SUDOCONF'!
+
+TermuxArch pc repofish 2.0.938: DONE đź“± đźŹ
+
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Attempting to install 'yay'...
+
+==> Running TermuxArch command pc yay v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 81 by '$SUDOCONF'!
+
+TermuxArch pc yay 2.0.938: DONE đź“± đźŹ
+
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Attempting to install 'aura'...
+
+==> Running TermuxArch command pc aura v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 81 by '$SUDOCONF'!
+
+TermuxArch pc aura 2.0.938: DONE đź“± đźŹ
+
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Cloning repositories: '    pm2ml python3-aur python3-xcgf python3-xcpf      pbget pm2ml powerpill python-xdg python3-aur python3-colorsysplus python3-memoizedb python3-xcgf python3-xcpf            ' from https://aur.archlinux.org.
+Cloning repository 'pm2ml' from https://archive.archlinux32.org.
+
+==> Running TermuxArch command pci git v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 80 by '$SUDOCONF'!
+
+TermuxArch pci git 2.0.938: DONE đź“± đźŹ
+
+
+ TermuxArch WARNING:  Generated script signal 201 near or at line number 58 by 'pci'!
+
+gcl https://aur.archlinux.org/pm2ml.git 2.0.938 [Exit Signal 201]: DONE  đźŹ
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Cloning repository 'python3-aur' from https://archive.archlinux32.org.
+
+==> Running TermuxArch command pci git v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 80 by '$SUDOCONF'!
+
+TermuxArch pci git 2.0.938: DONE đź“± đźŹ
+
+
+ TermuxArch WARNING:  Generated script signal 201 near or at line number 58 by 'pci'!
+
+gcl https://aur.archlinux.org/python3-aur.git 2.0.938 [Exit Signal 201]: DONE  đźŹ
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Cloning repository 'python3-xcgf' from https://archive.archlinux32.org.
+
+==> Running TermuxArch command pci git v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 80 by '$SUDOCONF'!
+
+TermuxArch pci git 2.0.938: DONE đź“± đźŹ
+
+
+ TermuxArch WARNING:  Generated script signal 201 near or at line number 58 by 'pci'!
+
+gcl https://aur.archlinux.org/python3-xcgf.git 2.0.938 [Exit Signal 201]: DONE  đźŹ
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Cloning repository 'python3-xcpf' from https://archive.archlinux32.org.
+
+==> Running TermuxArch command pci git v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 80 by '$SUDOCONF'!
+
+TermuxArch pci git 2.0.938: DONE đź“± đźŹ
+
+
+ TermuxArch WARNING:  Generated script signal 201 near or at line number 58 by 'pci'!
+
+gcl https://aur.archlinux.org/python3-xcpf.git 2.0.938 [Exit Signal 201]: DONE  đźŹ
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Cloning repository 'pbget' from https://archive.archlinux32.org.
+
+==> Running TermuxArch command pci git v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 80 by '$SUDOCONF'!
+
+TermuxArch pci git 2.0.938: DONE đź“± đźŹ
+
+
+ TermuxArch WARNING:  Generated script signal 201 near or at line number 58 by 'pci'!
+
+gcl https://aur.archlinux.org/pbget.git 2.0.938 [Exit Signal 201]: DONE  đźŹ
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Cloning repository 'pm2ml' from https://archive.archlinux32.org.
+
+==> Running TermuxArch command pci git v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 80 by '$SUDOCONF'!
+
+TermuxArch pci git 2.0.938: DONE đź“± đźŹ
+
+
+ TermuxArch WARNING:  Generated script signal 201 near or at line number 58 by 'pci'!
+
+gcl https://aur.archlinux.org/pm2ml.git 2.0.938 [Exit Signal 201]: DONE  đźŹ
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Cloning repository 'powerpill' from https://archive.archlinux32.org.
+
+==> Running TermuxArch command pci git v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 80 by '$SUDOCONF'!
+
+TermuxArch pci git 2.0.938: DONE đź“± đźŹ
+
+
+ TermuxArch WARNING:  Generated script signal 201 near or at line number 58 by 'pci'!
+
+gcl https://aur.archlinux.org/powerpill.git 2.0.938 [Exit Signal 201]: DONE  đźŹ
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Cloning repository 'python-xdg' from https://archive.archlinux32.org.
+
+==> Running TermuxArch command pci git v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 80 by '$SUDOCONF'!
+
+TermuxArch pci git 2.0.938: DONE đź“± đźŹ
+
+
+ TermuxArch WARNING:  Generated script signal 201 near or at line number 58 by 'pci'!
+
+gcl https://aur.archlinux.org/python-xdg.git 2.0.938 [Exit Signal 201]: DONE  đźŹ
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Cloning repository 'python3-aur' from https://archive.archlinux32.org.
+
+==> Running TermuxArch command pci git v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 80 by '$SUDOCONF'!
+
+TermuxArch pci git 2.0.938: DONE đź“± đźŹ
+
+
+ TermuxArch WARNING:  Generated script signal 201 near or at line number 58 by 'pci'!
+
+gcl https://aur.archlinux.org/python3-aur.git 2.0.938 [Exit Signal 201]: DONE  đźŹ
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Cloning repository 'python3-colorsysplus' from https://archive.archlinux32.org.
+
+==> Running TermuxArch command pci git v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 80 by '$SUDOCONF'!
+
+TermuxArch pci git 2.0.938: DONE đź“± đźŹ
+
+
+ TermuxArch WARNING:  Generated script signal 201 near or at line number 58 by 'pci'!
+
+gcl https://aur.archlinux.org/python3-colorsysplus.git 2.0.938 [Exit Signal 201]: DONE  đźŹ
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Cloning repository 'python3-memoizedb' from https://archive.archlinux32.org.
+
+==> Running TermuxArch command pci git v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 80 by '$SUDOCONF'!
+
+TermuxArch pci git 2.0.938: DONE đź“± đźŹ
+
+
+ TermuxArch WARNING:  Generated script signal 201 near or at line number 58 by 'pci'!
+
+gcl https://aur.archlinux.org/python3-memoizedb.git 2.0.938 [Exit Signal 201]: DONE  đźŹ
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Cloning repository 'python3-xcgf' from https://archive.archlinux32.org.
+
+==> Running TermuxArch command pci git v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 80 by '$SUDOCONF'!
+
+TermuxArch pci git 2.0.938: DONE đź“± đźŹ
+
+
+ TermuxArch WARNING:  Generated script signal 201 near or at line number 58 by 'pci'!
+
+gcl https://aur.archlinux.org/python3-xcgf.git 2.0.938 [Exit Signal 201]: DONE  đźŹ
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Cloning repository 'python3-xcpf' from https://archive.archlinux32.org.
+
+==> Running TermuxArch command pci git v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 80 by '$SUDOCONF'!
+
+TermuxArch pci git 2.0.938: DONE đź“± đźŹ
+
+
+ TermuxArch WARNING:  Generated script signal 201 near or at line number 58 by 'pci'!
+
+gcl https://aur.archlinux.org/python3-xcpf.git 2.0.938 [Exit Signal 201]: DONE  đźŹ
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Cloning repositories: 'pkgbuilder repoctl paru-bin yay-bin pbget puyo rua paru trizen aurutils bauerbill pacaur auracle-git pakku yaah yayim pikaur-git pikaur yay-git repofish yay aura ' from https://aur.archlinux.org.
+Cloning repository 'pkgbuilder' from https://archive.archlinux32.org.
+
+==> Running TermuxArch command pci git v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 80 by '$SUDOCONF'!
+
+TermuxArch pci git 2.0.938: DONE đź“± đźŹ
+
+
+ TermuxArch WARNING:  Generated script signal 201 near or at line number 58 by 'pci'!
+
+gcl https://aur.archlinux.org/pkgbuilder.git 2.0.938 [Exit Signal 201]: DONE  đźŹ
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Cloning repository 'repoctl' from https://archive.archlinux32.org.
+
+==> Running TermuxArch command pci git v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 80 by '$SUDOCONF'!
+
+TermuxArch pci git 2.0.938: DONE đź“± đźŹ
+
+
+ TermuxArch WARNING:  Generated script signal 201 near or at line number 58 by 'pci'!
+
+gcl https://aur.archlinux.org/repoctl.git 2.0.938 [Exit Signal 201]: DONE  đźŹ
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Cloning repository 'paru-bin' from https://archive.archlinux32.org.
+
+==> Running TermuxArch command pci git v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 80 by '$SUDOCONF'!
+
+TermuxArch pci git 2.0.938: DONE đź“± đźŹ
+
+
+ TermuxArch WARNING:  Generated script signal 201 near or at line number 58 by 'pci'!
+
+gcl https://aur.archlinux.org/paru-bin.git 2.0.938 [Exit Signal 201]: DONE  đźŹ
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Cloning repository 'yay-bin' from https://archive.archlinux32.org.
+
+==> Running TermuxArch command pci git v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 80 by '$SUDOCONF'!
+
+TermuxArch pci git 2.0.938: DONE đź“± đźŹ
+
+
+ TermuxArch WARNING:  Generated script signal 201 near or at line number 58 by 'pci'!
+
+gcl https://aur.archlinux.org/yay-bin.git 2.0.938 [Exit Signal 201]: DONE  đźŹ
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Cloning repository 'pbget' from https://archive.archlinux32.org.
+
+==> Running TermuxArch command pci git v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 80 by '$SUDOCONF'!
+
+TermuxArch pci git 2.0.938: DONE đź“± đźŹ
+
+
+ TermuxArch WARNING:  Generated script signal 201 near or at line number 58 by 'pci'!
+
+gcl https://aur.archlinux.org/pbget.git 2.0.938 [Exit Signal 201]: DONE  đźŹ
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Cloning repository 'puyo' from https://archive.archlinux32.org.
+
+==> Running TermuxArch command pci git v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 80 by '$SUDOCONF'!
+
+TermuxArch pci git 2.0.938: DONE đź“± đźŹ
+
+
+ TermuxArch WARNING:  Generated script signal 201 near or at line number 58 by 'pci'!
+
+gcl https://aur.archlinux.org/puyo.git 2.0.938 [Exit Signal 201]: DONE  đźŹ
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Cloning repository 'rua' from https://archive.archlinux32.org.
+
+==> Running TermuxArch command pci git v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 80 by '$SUDOCONF'!
+
+TermuxArch pci git 2.0.938: DONE đź“± đźŹ
+
+
+ TermuxArch WARNING:  Generated script signal 201 near or at line number 58 by 'pci'!
+
+gcl https://aur.archlinux.org/rua.git 2.0.938 [Exit Signal 201]: DONE  đźŹ
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Cloning repository 'paru' from https://archive.archlinux32.org.
+
+==> Running TermuxArch command pci git v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 80 by '$SUDOCONF'!
+
+TermuxArch pci git 2.0.938: DONE đź“± đźŹ
+
+
+ TermuxArch WARNING:  Generated script signal 201 near or at line number 58 by 'pci'!
+
+gcl https://aur.archlinux.org/paru.git 2.0.938 [Exit Signal 201]: DONE  đźŹ
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Cloning repository 'trizen' from https://archive.archlinux32.org.
+
+==> Running TermuxArch command pci git v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 80 by '$SUDOCONF'!
+
+TermuxArch pci git 2.0.938: DONE đź“± đźŹ
+
+
+ TermuxArch WARNING:  Generated script signal 201 near or at line number 58 by 'pci'!
+
+gcl https://aur.archlinux.org/trizen.git 2.0.938 [Exit Signal 201]: DONE  đźŹ
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Cloning repository 'aurutils' from https://archive.archlinux32.org.
+
+==> Running TermuxArch command pci git v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 80 by '$SUDOCONF'!
+
+TermuxArch pci git 2.0.938: DONE đź“± đźŹ
+
+
+ TermuxArch WARNING:  Generated script signal 201 near or at line number 58 by 'pci'!
+
+gcl https://aur.archlinux.org/aurutils.git 2.0.938 [Exit Signal 201]: DONE  đźŹ
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Cloning repository 'bauerbill' from https://archive.archlinux32.org.
+
+==> Running TermuxArch command pci git v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 80 by '$SUDOCONF'!
+
+TermuxArch pci git 2.0.938: DONE đź“± đźŹ
+
+
+ TermuxArch WARNING:  Generated script signal 201 near or at line number 58 by 'pci'!
+
+gcl https://aur.archlinux.org/bauerbill.git 2.0.938 [Exit Signal 201]: DONE  đźŹ
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Cloning repository 'pacaur' from https://archive.archlinux32.org.
+
+==> Running TermuxArch command pci git v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 80 by '$SUDOCONF'!
+
+TermuxArch pci git 2.0.938: DONE đź“± đźŹ
+
+
+ TermuxArch WARNING:  Generated script signal 201 near or at line number 58 by 'pci'!
+
+gcl https://aur.archlinux.org/pacaur.git 2.0.938 [Exit Signal 201]: DONE  đźŹ
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Cloning repository 'auracle-git' from https://archive.archlinux32.org.
+
+==> Running TermuxArch command pci git v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 80 by '$SUDOCONF'!
+
+TermuxArch pci git 2.0.938: DONE đź“± đźŹ
+
+
+ TermuxArch WARNING:  Generated script signal 201 near or at line number 58 by 'pci'!
+
+gcl https://aur.archlinux.org/auracle-git.git 2.0.938 [Exit Signal 201]: DONE  đźŹ
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Cloning repository 'pakku' from https://archive.archlinux32.org.
+
+==> Running TermuxArch command pci git v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 80 by '$SUDOCONF'!
+
+TermuxArch pci git 2.0.938: DONE đź“± đźŹ
+
+
+ TermuxArch WARNING:  Generated script signal 201 near or at line number 58 by 'pci'!
+
+gcl https://aur.archlinux.org/pakku.git 2.0.938 [Exit Signal 201]: DONE  đźŹ
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Cloning repository 'yaah' from https://archive.archlinux32.org.
+
+==> Running TermuxArch command pci git v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 80 by '$SUDOCONF'!
+
+TermuxArch pci git 2.0.938: DONE đź“± đźŹ
+
+
+ TermuxArch WARNING:  Generated script signal 201 near or at line number 58 by 'pci'!
+
+gcl https://aur.archlinux.org/yaah.git 2.0.938 [Exit Signal 201]: DONE  đźŹ
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Cloning repository 'yayim' from https://archive.archlinux32.org.
+
+==> Running TermuxArch command pci git v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 80 by '$SUDOCONF'!
+
+TermuxArch pci git 2.0.938: DONE đź“± đźŹ
+
+
+ TermuxArch WARNING:  Generated script signal 201 near or at line number 58 by 'pci'!
+
+gcl https://aur.archlinux.org/yayim.git 2.0.938 [Exit Signal 201]: DONE  đźŹ
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Cloning repository 'pikaur-git' from https://archive.archlinux32.org.
+
+==> Running TermuxArch command pci git v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 80 by '$SUDOCONF'!
+
+TermuxArch pci git 2.0.938: DONE đź“± đźŹ
+
+
+ TermuxArch WARNING:  Generated script signal 201 near or at line number 58 by 'pci'!
+
+gcl https://aur.archlinux.org/pikaur-git.git 2.0.938 [Exit Signal 201]: DONE  đźŹ
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Cloning repository 'pikaur' from https://archive.archlinux32.org.
+
+==> Running TermuxArch command pci git v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 80 by '$SUDOCONF'!
+
+TermuxArch pci git 2.0.938: DONE đź“± đźŹ
+
+
+ TermuxArch WARNING:  Generated script signal 201 near or at line number 58 by 'pci'!
+
+gcl https://aur.archlinux.org/pikaur.git 2.0.938 [Exit Signal 201]: DONE  đźŹ
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Cloning repository 'yay-git' from https://archive.archlinux32.org.
+
+==> Running TermuxArch command pci git v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 80 by '$SUDOCONF'!
+
+TermuxArch pci git 2.0.938: DONE đź“± đźŹ
+
+
+ TermuxArch WARNING:  Generated script signal 201 near or at line number 58 by 'pci'!
+
+gcl https://aur.archlinux.org/yay-git.git 2.0.938 [Exit Signal 201]: DONE  đźŹ
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Cloning repository 'repofish' from https://archive.archlinux32.org.
+
+==> Running TermuxArch command pci git v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 80 by '$SUDOCONF'!
+
+TermuxArch pci git 2.0.938: DONE đź“± đźŹ
+
+
+ TermuxArch WARNING:  Generated script signal 201 near or at line number 58 by 'pci'!
+
+gcl https://aur.archlinux.org/repofish.git 2.0.938 [Exit Signal 201]: DONE  đźŹ
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Cloning repository 'yay' from https://archive.archlinux32.org.
+
+==> Running TermuxArch command pci git v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 80 by '$SUDOCONF'!
+
+TermuxArch pci git 2.0.938: DONE đź“± đźŹ
+
+
+ TermuxArch WARNING:  Generated script signal 201 near or at line number 58 by 'pci'!
+
+gcl https://aur.archlinux.org/yay.git 2.0.938 [Exit Signal 201]: DONE  đźŹ
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+Cloning repository 'aura' from https://archive.archlinux32.org.
+
+==> Running TermuxArch command pci git v2.0.938...
+sudo: /etc/sudo.conf is owned by uid 1001, should be 0
+sudo: /usr/bin/sudo musĂ­ bĂ˝t vlastnÄ›n UID 0 a mĂ­t nastaven bit setuid
+
+ TermuxArch WARNING:  Generated script signal 1 near or at line number 80 by '$SUDOCONF'!
+
+TermuxArch pci git 2.0.938: DONE đź“± đźŹ
+
+
+ TermuxArch WARNING:  Generated script signal 201 near or at line number 58 by 'pci'!
+
+gcl https://aur.archlinux.org/aura.git 2.0.938 [Exit Signal 201]: DONE  đźŹ
+
+error: Please correct the error(s) and/or warning(s) and run 'makeaurhelpers' again.
+
+makeaurhelpers  2.0.938: DONE đźŹ
+[janusz@localhost root]$
