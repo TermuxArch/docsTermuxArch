@@ -1,14 +1,5 @@
-##### -rwxrwx--- [knownconfigurations.sh](https://raw.githubusercontent.com/sdrausty/TermuxArch/master/scripts/files/stable/knownconfigurations.sh)
-
-##### -rwxrwx--- [necessaryfunctions.sh](https://raw.githubusercontent.com/sdrausty/TermuxArch/master/scripts/files/stable/necessaryfunctions.sh)
-
-##### -rwxrwx--- [printoutstatements.sh](https://raw.githubusercontent.com/sdrausty/TermuxArch/master/scripts/files/stable/printoutstatements.sh)
-
-##### -rwxrwx--- [setupTermuxArch.sh](https://raw.githubusercontent.com/sdrausty/TermuxArch/master/scripts/files/stable/setupTermuxArch.sh)
-
-##### -rwxrwx--- [setupTermuxArch.tar.gz](https://raw.githubusercontent.com/sdrausty/TermuxArch/master/scripts/files/stable/setupTermuxArch.tar.gz)
-
-##### -rwxrwx--- [archsystemconfigs.sh](https://raw.githubusercontent.com/sdrausty/TermuxArch/master/scripts/files/stable/archsystemconfigs.sh)
+##### -r--r--r-- [setupTermuxArch](https://raw.githubusercontent.com/TermuxArch/TermuxArch/master/setupTermuxArch)
+##### -rwxrwxrwx [setupTermuxArch](https://TermuxArch.github.io/TermuxArch/setupTermuxArch) 
 
 ## __There are a number of ways you can start Arch Linux in Termux once installed.  Three methods of starting Arch Linux in Termux after installing are outlined here:__
 
