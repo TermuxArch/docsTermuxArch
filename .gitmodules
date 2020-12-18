@@ -1,3 +1,6 @@
 [submodule "imgs"]
 	path = imgs
 	url = https://github.com/TermuxArch/imgsTermuxArch
+[submodule ".scripts/maintenance"]
+	path = .scripts/maintenance
+	url = https://github.com/shlibs/maintenance
