@@ -1,4 +1,4 @@
-## This list contains 8476 packages available for installation today in Arch Linux in Termux.  Use `pacman -Sl` to see which packages are available in Arch Linux on your device.  It will generate a similar listing.  
+## This list contains 8476 packages available for installation today in Arch Linux in Termux.  Use `pacman -Sl` to see which packages are available in Arch Linux on your device.  It will generate a similar listing.
 
 core acl 2.2.52-4 [installed]
 

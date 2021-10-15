@@ -5,12 +5,12 @@ addcdtd created
 addcdth created
 addkeys refined
 bloom option revised
-exec proot added 
+exec proot added
 ktest.sh refined
 motd refined
 moto created
 option run dropped
-printconfigq () renamed printconfigup () 
+printconfigq () renamed printconfigup ()
 trimmed motd
 trim refined
 pacman -Rc added
@@ -52,15 +52,15 @@ TermuxArch v1.6
 
 Arch Linux Termux install script for Amazon Fire OS, Android and Chromebook.  See https://sdrausty.github.io/TermuxArch/docs/install for installation instructions.
 ---
-* $bin and makebin () depreciated in favor of $startbin and makestartbin ()  
+* $bin and makebin () depreciated in favor of $startbin and makestartbin ()
 * Added addexd () export DISPLAY=:0 PULSE_SERVER=tcp:127.0.0.1:4712
 * Added alias pcs='pacman  --Ss --color=always'
 * Added help to `startarch`
 * Added help to `we`, Watch Entropy
 * Added pst () making the proot statement modular
-* Created addtrim () 
+* Created addtrim ()
 * makefinishsetup () rewritten
-* makestartbin () rewritten to accommodate hush-login and $prootstmnt 
+* makestartbin () rewritten to accommodate hush-login and $prootstmnt
 * Script stability improved
 * Test harness `thstartarch` for `startarch` created
 * Watch Entropy `we` expanded
@@ -101,7 +101,7 @@ addmotd () refined
 addbashrc () refined
 entropy generation refined
 for loops softened
-minus signs removed from option usage 
+minus signs removed from option usage
 printout statements refined and expanded
 refresh option exceptions added
 `startarch` changed to `startarch$tarch`
@@ -125,7 +125,7 @@ continue statements reimplemented in ftchstnd
 entropy generation revised
 locale instructions added
 locale question  revised
-entropy generation 
+entropy generation
 -------------------
 proot kill-all
 packey install added
@@ -133,5 +133,5 @@ packey install instructions added
 mirror instructions added to mirror file
 lr ls -alR BASH alias added
 ae available entropy
-ce create entropy 
+ce create entropy
 ces create entropy start

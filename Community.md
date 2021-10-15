@@ -1,10 +1,10 @@
 # -rwxrwx--- [setupTermuxArch.sh](https://raw.githubusercontent.com/sdrausty/TermuxArch/master/setupTermuxArch.sh)
 
-# If you would like to know more about Termux, join us with a cup of coffee, or similar. 
+# If you would like to know more about Termux, join us with a cup of coffee, or similar.
 
 We are a distributed community worldwide. Here are a few ways to get in touch with us:
 * [Google+ Community](https://termux.com/community Google+ Community)
-* [Email Group](https://groups.io/g/termux) 
+* [Email Group](https://groups.io/g/termux)
 * [Facebook](https://facebook.com/termux/)
 * [GitHub](https://github.com/termux/)
 * [Gitter](https://gitter.im/termux/termux)

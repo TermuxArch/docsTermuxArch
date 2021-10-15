@@ -92,7 +92,7 @@ getprop ro.product.cpu.abi result:
 
 armeabi-v7a
 
-getprop ro.product.device result:                                               
+getprop ro.product.device result:
 jeff
 
 Download directory information results.
@@ -183,7 +183,7 @@ $ bash setupTermuxArch.sh rehresh
 
 TermuxArch: FREE SPACE WARNING!  Start thinking about cleaning out some stuff.  425560 1K-blocks of free user space is available on this device.  The recommended minimum to install Arch Linux in Termux PRoot for armv7 is 1.25G of free user space.
 
- 🕛 > 🕛 setupTermuxArch v1.6 will refresh your TermuxArch files in /data/data/com.termux/files/home/arch.  Ensure background data is not restricted.  Run bash setupTermuxArch.sh help for additional information.  Check the wireless connection if you do not see one o'clock 🕐 below.  Checking prerequisites…             
+ 🕛 > 🕛 setupTermuxArch v1.6 will refresh your TermuxArch files in /data/data/com.termux/files/home/arch.  Ensure background data is not restricted.  Run bash setupTermuxArch.sh help for additional information.  Check the wireless connection if you do not see one o'clock 🕐 below.  Checking prerequisites…
  🕛 > 🕧 Prerequisites: OK  Downloading TermuxArch…
 
 setupTermuxArch.sha 100%[===================>]     153  --.-KB/s    in 0s
@@ -318,7 +318,7 @@ TermuxArch Keys: DONE 🏁
  core is up to date
  community                  4.7 MiB  14.4K/s 05:34 [######################] 100%
  alarm is up to date
- aur is up to date                                                              
+ aur is up to date
 ==> Generating locales...
   en_US.UTF-8... done
 Generation complete.
@@ -354,7 +354,7 @@ arch/root/bin/yt
 
  🕛 > 🕦 startarch copied to /data/data/com.termux/files/home/bin.
 
- 🕛 = 🕛 Information about "Starting Arch Linux from Termux?" at https://github.com/sdrausty/TermuxArch/issues/25.  Use tour to run a very short tour to get to know the new Arch Linux in Termux PRoot environment you just set up a little bit better.  If there was more than one error during the update procedure and you would like to refresh the installation, use setupTermuxArch.sh refresh.  This will update and recreate the configuration provided.  The TermuxArch command keys helps install and generate Arch Linux keyring keys.                                                                                                              Arch Linux in Termux PRoot is installed in /data/data/com.termux/files/home/arch.  This project is in active development and contributions are welcome; See https://sdrausty.github.io/TermuxArch/CONTRIBUTORS for information.  The documentation repository for TermuxArch https://sdrausty.github.io/TermuxArch/docs/ is a Termux Arch submodule that is located at https://github.com/sdrausty/docsTermuxArch.  Pull requests and contributions through the issues pages are open to improve the ux and this Termux PRoot installation script.                              
+ 🕛 = 🕛 Information about "Starting Arch Linux from Termux?" at https://github.com/sdrausty/TermuxArch/issues/25.  Use tour to run a very short tour to get to know the new Arch Linux in Termux PRoot environment you just set up a little bit better.  If there was more than one error during the update procedure and you would like to refresh the installation, use setupTermuxArch.sh refresh.  This will update and recreate the configuration provided.  The TermuxArch command keys helps install and generate Arch Linux keyring keys.                                                                                                              Arch Linux in Termux PRoot is installed in /data/data/com.termux/files/home/arch.  This project is in active development and contributions are welcome; See https://sdrausty.github.io/TermuxArch/CONTRIBUTORS for information.  The documentation repository for TermuxArch https://sdrausty.github.io/TermuxArch/docs/ is a Termux Arch submodule that is located at https://github.com/sdrausty/docsTermuxArch.  Pull requests and contributions through the issues pages are open to improve the ux and this Termux PRoot installation script.
 Use ~/arch/startarch and startarch in a BASH shell to launch Arch Linux in Termux PRoot for future sessions.  If you are new to *nix, http://tldp.org has *nix documentation.  See https://wiki.archlinux.org/index.php/IRC_channel for available Arch Linux IRC channels.
                                                                                                                                                                 Welcome to Arch Linux in Termux!
 Install a package: pacman -S package
@@ -368,11 +368,11 @@ IRC:  wiki.archlinux.org/index.php/IRC_channel
 Thank you for experiencing Arch Linux in Termux!
                                                                                 Chat: https://webchat.freenode.net/ #termux                                     Help: info query and man query
 IRC:  wiki.archlinux.org/index.php/IRC_channel
-                                                                                                                                                                Arch Linux in Termux PRoot is installed in /data/data/com.termux/files/home/arch.  This project is in active development and contributions are welcome; See https://sdrausty.github.io/TermuxArch/CONTRIBUTORS for information.  The documentation repository for TermuxArch https://sdrausty.github.io/TermuxArch/docs/ is a Termux Arch submodule that is located at https://github.com/sdrausty/docsTermuxArch.  Pull requests and contributions through the issues pages are open to improve the ux and this Termux PRoot installation script.                                                                                                              Use ~/arch/startarch and startarch in a BASH shell to launch Arch Linux in Termux PRoot for future sessions.  If you are new to *nix, http://tldp.org has *nix documentation.  See https://wiki.archlinux.org/index.php/IRC_channel for available Arch Linux IRC channels.                                                      
+                                                                                                                                                                Arch Linux in Termux PRoot is installed in /data/data/com.termux/files/home/arch.  This project is in active development and contributions are welcome; See https://sdrausty.github.io/TermuxArch/CONTRIBUTORS for information.  The documentation repository for TermuxArch https://sdrausty.github.io/TermuxArch/docs/ is a Termux Arch submodule that is located at https://github.com/sdrausty/docsTermuxArch.  Pull requests and contributions through the issues pages are open to improve the ux and this Termux PRoot installation script.                                                                                                              Use ~/arch/startarch and startarch in a BASH shell to launch Arch Linux in Termux PRoot for future sessions.  If you are new to *nix, http://tldp.org has *nix documentation.  See https://wiki.archlinux.org/index.php/IRC_channel for available Arch Linux IRC channels.
 Usage:  startarch Start Arch Linux as root.  This account should only be reserved for system administration.                                                                                                                                            startarch command command Run Arch Linux command from Termux as root user.
                                                                                         startarch login user Login as user.  Use addauser user first to create a user and the user's home directory.
 
-        startarch raw Construct the startarch proot statement.  For example startarch raw su - user will login to Arch Linux as user.  Use addauser user first to create a user and the user's home directory.                                  
-        startarch su user command Login as user and execute command.  Use addauser user first to create a user and the user's home directory.                                                                                                   
+        startarch raw Construct the startarch proot statement.  For example startarch raw su - user will login to Arch Linux as user.  Use addauser user first to create a user and the user's home directory.
+        startarch su user command Login as user and execute command.  Use addauser user first to create a user and the user's home directory.
 setupTermuxArch.sh refresh v1.6: DONE 🏁
                                                                                 $

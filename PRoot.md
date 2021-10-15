@@ -1,6 +1,6 @@
-Package: proot 
+Package: proot
 
-Description: Emulate chroot, bind mount and binfmt_misc for non-root users 
+Description: Emulate chroot, bind mount and binfmt_misc for non-root users
 
 Homepages: [https://proot-me.github.io](https://proot-me.github.io)
 

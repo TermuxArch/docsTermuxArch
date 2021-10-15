@@ -8,7 +8,7 @@ Termux is a terminal emulator and Linux environment for Android and Chrome OS.
 Termux is an Android terminal emulator and Linux environment app that works directly with no rooting or setup required. A minimal base system is installed automatically; Additional packages are available using package managers.
 
 = [Community](Community) =
-Questions after reading the this stuff? Just want to get to know us? Can you help Termux developers and users out? Check out the [[Community| community pages]]. Whether just for fun or serious work, please join us. 
+Questions after reading the this stuff? Just want to get to know us? Can you help Termux developers and users out? Check out the [[Community| community pages]]. Whether just for fun or serious work, please join us.
 
 ## Morph your Android device into a computer! Take part in our endeavor of harnessing the power of your Android tablet or smartphone. There is 24/7 development [here.](https://github.com/termux/termux-packages/graphs/commit-activity) The world is a big place!
 

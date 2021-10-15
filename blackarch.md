@@ -1,12 +1,12 @@
 To install https://blackarch.org do the following:
 1) Install, update and configure Arch Linux using [`setupTermuxArch.sh`](https://sdrausty.github.io/TermuxArch/setupTermuxArch.sh).
-2) Add the next lines to the end of the /etc/pacman.conf file:  
+2) Add the next lines to the end of the /etc/pacman.conf file:
 ```
 [blackarch]
 Server = http://blackarch.org/blackarch/$repo/os/$arch
 ```
-3) Run `pacman -Syu`. 
-4) Run `pacman -S archstrike --needed`. 
+3) Run `pacman -Syu`.
+4) Run `pacman -S archstrike --needed`.
 
 Does anyone want to install:
 1) https://www.archstrike.org on device in Termux?

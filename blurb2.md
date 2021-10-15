@@ -1,6 +1,6 @@
 # [TermuxArch](https://github.com/sdrausty/TermuxArch)
 
-Now you can install Arch Linux in Termux 📲 on your smartphone and tablet. More information at https://sdrausty.github.io/TermuxArch 
+Now you can install Arch Linux in Termux 📲 on your smartphone and tablet. More information at https://sdrausty.github.io/TermuxArch
 
 Java is available through https://sdrausty.github.io/TermuxArch/ Just follow the easy install instructions at https://sdrausty.github.io/TermuxArch/docs/docs/install or just un the following in you Termux window:
 
